@@ -1,3 +1,9 @@
+:root {
+	--page-text-color: #d3d3d3;
+	--font-color: #d3d3d3;
+	--page-bgc: #0b1124;
+	--body-bgc: #22242b;
+}
 body {
 	background-color: var(--page-bgc);
 	background-image: radial-gradient(ellipse at right bottom, rgba(11, 17, 108, 0.8) 0%, rgba(11, 17, 108, 0.3) 25%, rgba(11, 17, 108, 0) 60%), linear-gradient(to top, rgba(11, 17, 36, 0.2) 30%, rgba(11, 17, 36, 0.4) 60%, rgba(11, 17, 36, 1) 100%);
