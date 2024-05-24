@@ -12,6 +12,7 @@ body {
 	background-attachment: fixed;
 }
 .title {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
+	color: #d2d2d2;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 2em;
 }
