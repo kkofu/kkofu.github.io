@@ -1,15 +1,14 @@
 :root {
-	--color: #d3d3d3;
 	--page-text-color: #d3d3d3;
-	--body-bgc: #2b2a33;
 }
 
 body {
-	background-color: var(--body-bgc);
-	/* background-image: radial-gradient(ellipse at right bottom, rgba(34, 37, 78, 0.8) 0%, rgba(18, 23, 98, 0.3) 25%, rgba(44, 50, 128, 0) 60%), linear-gradient(to top, rgba(22, 28, 45, 0.2) 30%, rgba(32, 35, 46, 0.4) 60%, rgba(11, 17, 36, 0.7) 100%); */
-	background-size: cover;
+	color: #d3d3d3;
+	background-color: black;
+	/* background-image: url("header.png"); */
+	background-size: contain;
 	background-position: center center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 .title { font-size: 2.5em; }
