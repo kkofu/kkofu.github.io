@@ -3,15 +3,17 @@
 	--page-text-color: #d3d3d3;
 	--body-bgc: #2b2a33;
 }
+
 body {
 	background-color: var(--body-bgc);
-	background-image: radial-gradient(ellipse at right bottom, rgba(11, 17, 108, 0.8) 0%, rgba(11, 17, 108, 0.3) 25%, rgba(11, 17, 108, 0) 60%), linear-gradient(to top, rgba(11, 17, 36, 0.2) 30%, rgba(11, 17, 36, 0.4) 60%, rgba(11, 17, 36, 1) 100%);
+	background-image: radial-gradient(ellipse at right bottom, rgba(11, 17, 108, 0.8) 0%, rgba(11, 17, 108, 0.3) 25%, rgba(11, 17, 108, 0) 60%), linear-gradient(to top, rgba(11, 17, 36, 0.2) 30%, rgba(11, 17, 36, 0.4) 60%, rgba(11, 17, 36, 0.7) 100%);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 }
+
+.title { font-size: 2.5em; }
 .title, .window, .center {
 	color: #d3d3d3;
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 2.5em;
 }
