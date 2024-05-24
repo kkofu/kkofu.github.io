@@ -1,4 +1,4 @@
 # kkofu.github.io
 Imitating `ideoaves.github.io`.
 
-main content → [https://github.com/kkofu/droste](/kkofu/droste)
+main content → https://github.com/kkofu/droste
