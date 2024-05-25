@@ -3,6 +3,9 @@
 }
 
 body {
+	font-family: 'Courier New', Courier, monospace;
+	font-optical-sizing: auto;
+	font-style: normal;
 	color: #d3d3d3;
 	background-color: black;
 	/* background-image: url("header.png"); */
@@ -11,7 +14,5 @@ body {
 	background-attachment: scroll;
 }
 
-.title { font-size: 2.5em; }
-.title, .window, .center {
-	font-family: 'Courier New', Courier, monospace;
+.title { font-size: 3em; }
 }
