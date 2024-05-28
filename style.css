@@ -18,6 +18,17 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 }
+main a:link{
+	color: #4447f8;
+}
+main a:visited:not(.link-img) {
+	color: var(--linkcol);
+}
+
+main a:hover:not(.link-img) {
+	color: var(--linkcol);
+	text-decoration: none;
+}
 code{
 	font-family: monospace;
 }
@@ -29,15 +40,30 @@ code{
 .link-img {
 	color: var(--txtcol);
 }
-main a[href]:link:not(.link-img) {
-	color: var(--linkcol);
+.button {
+	color: black;
+	background-color: black;
+	display: inline;
+	padding: 0px 20px;
+	margin: 5px 10px;
+	border-style: solid;
+	background-color: #DFDFDF;
+	border-color: #ffffff #808080 #808080 #ffffff;
+	text-align: center;
+	font-family: serif;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: black;
 }
-
-main a[href]:visited:not(.link-img) {
-	color: #4447f8;
+.button:hover {
+	cursor: pointer
 }
-
-main a[href]:hover:not(.link-img) {
-	color: var(--linkcol);
-	text-decoration: none;
+.button:active {
+	border-color: #808080 #ffffff #ffffff #808080;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 20px;
 }
