@@ -1,16 +1,15 @@
 :root {
-	--txtcol: #d3d3d3;
+	--txtcol: white;
 	--bgcol: black;
+	--linkcol: #4493f8;
 }
-.title {font-size: 3em;}
-.intro {
-	font-size: 0.9em;
-	padding-bottom: 300px;
-}
-.banner-img {border: solid 1px #fff;}
 body {
-	background-color: var(--bgcol);
+	width: 75%;
+	max-width: 1080px;
+	padding-bottom: 50px;
+	margin: 0 auto;
 	color: var(--txtcol);
+	background-color: var(--bgcol);
 	font-family: 'Courier New', Courier, monospace;
 	font-optical-sizing: auto;
 	font-style: normal;
@@ -18,4 +17,24 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-attachment: scroll;
+}
+.window {
+	display: block;
+	margin: 50px 0;
+	text-align: left;
+}
+.link-img {
+	color: var(--txtcol);
+}
+main a[href]:link:not(.link-img) {
+	color: var(--linkcol);
+}
+
+main a[href]:visited:not(.link-img) {
+	color: #4447f8;
+}
+
+main a[href]:hover:not(.link-img) {
+	color: var(--linkcol);
+	text-decoration: none;
 }

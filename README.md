@@ -1,4 +1,9 @@
-# kkofu.github.io
-Practice of HTML, imitating `ideoaves.github.io`
+# [kkofu](https://kkofu.github.io)
 
-Main content → [/kkofu/droste](https://github.com/kkofu/droste)
+A practice of HTML, completely handwritten.
+
+Inspired by [ideoaves.github.io](https://github.com/ideoaves/ideoaves.github.io)
+
+
+### Project Pages
+- [/kkofu/droste](https://github.com/kkofu/droste)
