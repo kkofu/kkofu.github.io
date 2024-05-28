@@ -16,7 +16,10 @@ body {
    background-image: url("images/bg_dark.png");
 	background-size: cover;
 	background-position: center center;
-	background-attachment: scroll;
+	background-attachment: fixed;
+}
+code{
+	font-family: monospace;
 }
 .window {
 	display: block;
