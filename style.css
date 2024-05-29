@@ -37,7 +37,7 @@ footer{
 	bottom: 0;
 	right: 1.5%;
 }
-.header{
+.header-small{
 	font-size: 0.75em;
 	opacity: 50%;
 	position: absolute;
@@ -48,6 +48,14 @@ footer{
 	display: block;
 	margin: 50px 0;
 	text-align: left;
+}
+.top-bullet{
+	padding: 0px 10px 20px 20px;
+	line-height: 1.5em;
+}
+.top-links{
+	padding: 0px 10px 20px 20px;
+	line-height: 1em;
 }
 .link-img {
 	color: var(--txtcol);
