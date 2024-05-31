@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&family=Zen+Kaku+Gothic+New&family=Ubuntu+Sans+Mono:wght@500&display=swap');
+/* ↑これlocalにする */
+@font-face {
+	font-family: "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	src:local("Bahnschrift"), local("DIN"), local("ＭＳ Ｐゴシック"), local("MS PGothic");
+}
 :root {
 	--txtcol: white;
 	--bgcol: black;
@@ -10,10 +16,10 @@ body {
 	margin: 0 auto;
 	color: var(--txtcol);
 	background-color: var(--bgcol);
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "Ubuntu Sans Mono", monospace, "Courier", "Courier New", monospace, "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-   background-image: url("images/bg_dark.png");
+   background-image: url("../images/bg_dark.png");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
