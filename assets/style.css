@@ -16,7 +16,7 @@ body {
 	margin: 0 auto;
 	color: var(--txtcol);
 	background-color: var(--bgcol);
-	font-family: "Ubuntu Sans Mono", monospace, "Courier", "Courier New", monospace, "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: "Courier", "Courier New", monospace, "Ubuntu Sans Mono", monospace, "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
    background-image: url("../images/bg_dark.png");
@@ -62,6 +62,11 @@ footer{
 .top-links{
 	padding: 0px 10px 20px 20px;
 	line-height: 1em;
+}
+.fomula{
+	position: absolute;
+	top: 150px;
+	right: 100px;
 }
 .link-img {
 	color: var(--txtcol);
