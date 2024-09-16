@@ -1,0 +1,165 @@
+
+:root {
+    --text-color: #fff;
+    --back-color: #000;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+body {
+    height: 70%;
+    margin: 0;
+    color: var(--text-color);
+    background-color: var(--back-color);
+    font-family: serif;
+/*    width: 60%;*/
+    padding: 50px;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    -webkit-backdrop-filter: blur(12px) opacity(23%) saturate(50%);
+    backdrop-filter: blur(16px) opacity(23%) saturate(50%);
+    top: -5px;
+    left: -5px;
+    margin: auto;
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* body {
+	width: 80%;
+	max-width: 1080px;
+	padding: 0;
+	padding-bottom: 100px;
+	margin: 0 auto;
+	color: var(--txtcol);
+	background-color: var(--bgcol);
+	font-family: "Courier", "Courier New", monospace, "Ubuntu Sans Mono", monospace, "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+    background-image: url("../images/bg_dark.png");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+} */
+
+main a:link{
+	color: #4447f8;
+}
+main a:visited:not(.link-img) {
+	color: var(--linkcol);
+}
+main a:hover:not(.link-img) {
+	color: var(--linkcol);
+	text-decoration: none;
+}
+
+canvas { 
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: -1;
+}
+
+code{
+	font-family: monospace;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 1.5%;
+}
+
+.header-small{
+	font-size: 0.75em;
+	opacity: 50%;
+	position: absolute;
+	top: 6.7%;
+	right: 15%;
+}
+
+.window {
+	display: block;
+	margin: 50px 0;
+	text-align: left;
+}
+
+.top-bullet{
+	padding: 0px 10px 20px 20px;
+	line-height: 1.5em;
+}
+
+.top-links{
+	padding: 0px 10px 20px 20px;
+	line-height: 1em;
+}
+
+.link-img {
+	color: var(--txtcol);
+}
+
+.introduction {
+    height: 50%;
+}
+
+.output-box {
+    display: flex
+    align-items: center;
+    justify-content: center;
+}
+
+#output {
+    height: 50%;
+    white-space: pre-wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.words {
+    font-size: 24px;
+}
+
+.trans {
+    margin-bottom: 20px;
+}
+
+.type {
+    color: #999;
+}
+
+.sub {
+    font-size: 0.8em;
+}
+
+.context {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.refresh {
+    position: absolute;
+    top: 79px;
+    left: 520px;
+}
+
+main {
+    height: 100%;
+    margin: 5px;
+}
+
+header {
+    margin: 0 auto;
+    align-self: center;
+    overflow: hidden;
+}

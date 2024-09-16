@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="preload" as="fetch" crossorigin="anonymous" href="images/bg_dark.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:image" content="https://kkofu.github.io/images/bg.png" />
+    <title>インターネットの栞</title>
+    <link rel="stylesheet" href="assets/shiori.css">
+</head>
+<body>
+    <div class="introduction">
+        インターネットの栞<br>
+        <p style="font-size: 0.6em;">インターネットの栞は、栞を付されたインターネットの切れ端たちです。</p>
+    </div>
+    <div>
+        <div class="output-box">
+            <div id="output"></div>
+        </div>
+    </div>
+    <!-- JSONデータを直接埋め込む(まだない) -->
+    <script id="json-data" type="application/json">
+    </script>
+    
+    <script>
+        // JSONデータをスクリプトから取得
+        const jsonData = JSON.parse(document.getElementById('json-data').textContent);
+        var randomIndex = Math.floor(Math.random() * jsonData.length);
+        var randomItem = jsonData[randomIndex];
+        var outputDiv = document.getElementById('output');
+
+        // データをHTMLに表示
+        outputDiv.innerHTML += "<div class='words'>" + (randomItem.words ? randomItem.words : "") + "</div>";
+        outputDiv.innerHTML += "<div class='trans'>" + (randomItem.trans ? randomItem.trans : "") + "</div>";
+        outputDiv.innerHTML += "<div class='type'>" + (randomItem.type ? randomItem.type : "") + "</div>";
+        outputDiv.innerHTML += "<div class='source'>" + (randomItem.source ? randomItem.source : "") + "</div>";
+        outputDiv.innerHTML += "<div class='sub'>" + (randomItem.sub ? randomItem.sub : "") + "</div>";
+        outputDiv.innerHTML += "<div class='refresh' onclick='refresh()'>↺</div>";
+
+        // ページをリロードする関数
+        function refresh() {
+            window.location.reload(true);
+        }
+    </script>
+
+    <footer>
+        <h4><a href="./">kkofu</a> &copy; 2024~</h4>
+    </footer>
+</body>
+</html>
