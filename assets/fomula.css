@@ -1,0 +1,14 @@
+:root {
+	--txtcol: white;
+	--bgcol: black;
+	--linkcol: #4493f8;
+}
+html,body {
+	margin: 0;
+	padding: 0;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 1.5%;
+}
