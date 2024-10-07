@@ -17,9 +17,7 @@ body {
 	margin: 0 auto;
 	color: var(--txtcol);
 	background-color: var(--bgcol);
-	font-family: "Courier", "Courier New", monospace, "Ubuntu Sans Mono", monospace, "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
+	font-family: "Courier", "Courier New", monospace, "Ubuntu Sans Mono", "l-safe", "calibri", "Roboto", "Font Awesome 5 Free", "Font Awesome 5 Brands";
     background-image: url("../images/bg_darker.png");
 	background-size: cover;
 	background-position: center center;
