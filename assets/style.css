@@ -18,7 +18,7 @@ body {
 	color: var(--txtcol);
 	background-color: var(--bgcol);
 	font-family: "Courier", "Courier New", monospace, "Ubuntu Sans Mono", "l-safe", "calibri", "Roboto", "Font Awesome 5 Free", "Font Awesome 5 Brands";
-    background-image: url("../images/bg_darker.png");
+    background-image: url("../images/bg_dark.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
