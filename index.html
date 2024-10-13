@@ -12,7 +12,7 @@
 <body>
     <header>
         <h1 style="font-size: 3.5em;">This is a web page.</h1>
-        <a href="yon" class="header-small">Hello, Internet!</a>
+        <a href="yon" class="header-small" onclick="window.open(this.href); return false;">Hello, Internet!</a>
     </header>
     <main>
         <div>
@@ -22,9 +22,9 @@
                 <li><a href="profile">Profile</a></li>
                 <li>Links
                     <ul class="ul-sec">
-                        <li><a href="https://scrapbox.io/kofu-lab/" style="background-color: #00b42e; color: white">scrapbox</a></li><br>
+                        <li><a href="https://scrapbox.io/kofu-lab/" onclick="window.open(this.href); return false;" style="background-color: #00b42e; color: white">scrapbox</a></li><br>
                         <li><a href="https://kiite.jp/playlist/DwDZeKDkj0" style="background-color: darkslategray; color: white;">kiite</a></li><br>
-                        <li><a href="https://discord.com/users/1008287185277034597" target="_blank" style="background-color: #5562f6; color: white">Discord</a></li><br>
+                        <li><a href="https://discord.com/users/1008287185277034597" style="background-color: #5562f6; color: white">Discord</a></li><br>
                         <li><a href="https://nostter.app/kkofu@kkofu.github.io" style="background-color: #16202a; color: #71c9f7;">nostr</a></li>
                     </ul>
                 </li>
