@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="twitter:image" content="https://kkofu.github.io/images/bg.jpg">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="icon" href="../images/favicon.ico">
     <title></title>
 </head>
 <body>
     <div>
     </div>
     <footer>
-        <h4><a href="./">kkofu</a> &copy; 2024~</h4>
+        <h4><a href="../">kkofu</a> &copy; 2024~</h4>
     </footer>
 </body>
 </html>
