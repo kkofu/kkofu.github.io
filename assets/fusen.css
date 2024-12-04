@@ -1,9 +1,3 @@
-
-:root {
-    --text-color: #fff;
-    --back-color: #000;
-}
-
 html {
 	margin: 0;
 	padding: 0;
@@ -13,10 +7,9 @@ html {
 body {
     height: 70%;
     margin: 0;
-    color: var(--text-color);
-    background-color: var(--back-color);
-    font-family: serif;
-/*    width: 60%;*/
+    color: white;
+    background-color: black;
+    font-family:"游明朝" , serif;
     padding: 50px;
 }
 
@@ -34,25 +27,8 @@ body::after {
     pointer-events: none;
 }
 
-/* body {
-	width: 80%;
-	max-width: 1080px;
-	padding: 0;
-	padding-bottom: 100px;
-	margin: 0 auto;
-	color: var(--txtcol);
-	background-color: var(--bgcol);
-	font-family: "Courier", "Courier New", monospace, "Ubuntu Sans Mono", monospace, "l-safe", "calibri", "YuGothic", "Yu Gothic", "Font Awesome 5 Free", "Font Awesome 5 Brands", "Roboto", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-    background-image: url("../images/bg_dark.png");
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-} */
-
 main a:link{
-	color: #4447f8;
+	color: blue;;
 }
 main a:visited:not(.link-img) {
 	color: var(--linkcol);
@@ -114,43 +90,44 @@ footer{
 }
 
 .output-box {
-    display: flex
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    margin-top: -2%;
 }
 
 #output {
-    height: 50%;
+    width: 52%;
     white-space: pre-wrap;
     text-align: center;
     margin: 0 auto;
 }
 
 .words {
-    font-size: 24px;
+    text-align: left;
+    font-size: 1.8em;
 }
 
 .trans {
-    margin-bottom: 20px;
+    margin-bottom: 1.5em;
 }
 
 .type {
+    text-align: right;
     color: #999;
 }
 
+.source {
+    text-align: right;
+}
+
 .sub {
+    text-align: right;
     font-size: 0.8em;
 }
 
 .context {
+    text-align: right;
     margin-top: 20px;
     font-size: 0.8em;
-}
-
-.refresh {
-    position: absolute;
-    top: 79px;
-    left: 520px;
 }
 
 main {

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="twitter:image" content="https://kkofu.github.io/images/bg.jpg">
     <link rel="stylesheet" href="../assets/fusen.css">
     <link rel="icon" href="../images/favicon.ico">
     <title>インターネットの付箋</title>
@@ -12,38 +11,33 @@
 <body>
     <div class="introduction">
         インターネットの付箋<br>
-        <p style="font-size: 0.6em;">インターネットの付箋は、付箋を貼られたインターネットの短い切れ端たちです。</p>
-    </div>
-    <div>
-        <div class="output-box">
-            <div id="output"></div>
+        <div style="font-size: 0.6em;">
+            <p>インターネットの付箋は、付箋を貼られたインターネットの短い切れ端たちです。<br>
+            <a style="font-size: 1.1em;" href="https://ideoaves.github.io/words">https://ideoaves.github.io/words</a>の<a style="font-size: 1.1em;" href="https://github.com/ideoaves/ideoaves.github.io/tree/main/words.html">ソースコード</a>をお借りしています。
+            <div;" style="font-size: 1.1em;" class='refresh' onclick='refresh()'>↺</div></p>
         </div>
     </div>
-    <!-- JSONデータを直接埋め込む(まだない) -->
-    <script id="json-data" type="application/json">
-    </script>
-    
+    <div class="output-box">
+        <div id="output"></div>
+    </div>
     <script>
-        // JSONデータをスクリプトから取得
-        const jsonData = JSON.parse(document.getElementById('json-data').textContent);
-        var randomIndex = Math.floor(Math.random() * jsonData.length);
-        var randomItem = jsonData[randomIndex];
-        var outputDiv = document.getElementById('output');
-
-        // データをHTMLに表示
-        outputDiv.innerHTML += "<div class='words'>" + (randomItem.words ? randomItem.words : "") + "</div>";
-        outputDiv.innerHTML += "<div class='trans'>" + (randomItem.trans ? randomItem.trans : "") + "</div>";
-        outputDiv.innerHTML += "<div class='type'>" + (randomItem.type ? randomItem.type : "") + "</div>";
-        outputDiv.innerHTML += "<div class='source'>" + (randomItem.source ? randomItem.source : "") + "</div>";
-        outputDiv.innerHTML += "<div class='sub'>" + (randomItem.sub ? randomItem.sub : "") + "</div>";
-        outputDiv.innerHTML += "<div class='refresh' onclick='refresh()'>↺</div>";
-
-        // ページをリロードする関数
+        fetch('../assets/words.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                var randomIndex = Math.floor(Math.random() * jsonData.length);
+                var randomItem = jsonData[randomIndex];
+                var outputDiv = document.getElementById('output');
+                outputDiv.innerHTML += "<div class='words'>" + (randomItem.words ? randomItem.words : "") + "</div>";
+                outputDiv.innerHTML += "<div class='trans'>" + (randomItem.trans ? randomItem.trans : "") + "</div>";
+                outputDiv.innerHTML += "<div class='type'>" + (randomItem.type ? randomItem.type : "") + "</div>";
+                outputDiv.innerHTML += "<div class='source'>" + (randomItem.source ? randomItem.source : "") + "</div>";
+                outputDiv.innerHTML += "<div class='sub'>" + (randomItem.sub ? randomItem.sub : "") + "</div>";
+                outputDiv.innerHTML += "<div class='context'>" + (randomItem.context ? randomItem.context : "") + "</div>";
+            });
         function refresh() {
             window.location.reload(true);
         }
     </script>
-
     <footer>
         <h4><a href="../">kkofu</a> &copy; 2024~</h4>
     </footer>
