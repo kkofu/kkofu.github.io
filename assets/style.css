@@ -115,3 +115,11 @@ footer {
 .button:active {
 	border-color: #808080 #ffffff #ffffff #808080;
 }
+
+.about {
+	padding: 2.5em 0 0;
+	opacity: 25%;
+}
+.about a:link {
+	text-decoration: none;
+}
