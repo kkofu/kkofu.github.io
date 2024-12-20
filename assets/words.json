@@ -3,7 +3,7 @@
     "words": "そんな四角い箱を眺めるだけで\n腐っていかないでね",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://angelkawaii.com/ame-profile/'>https://angelkawaii.com/ame-profile/</a>",
+    "source": "<a href='https://angelkawaii.com/ame-profile/'>angelkawaii.com/ame-profile/</a>",
     "sub": "あめちゃん",
     "context": ""
   },
@@ -11,7 +11,7 @@
     "words": "No one's around to play with Wumpus.",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://discord.com/channels/@me'>https://discord.com/channels/@me</a>",
+    "source": "<a href='https://discord.com/channels/@me'>discord.com/channels/@me</a>",
     "sub": "Discord Inc.",
     "context": ""
   },
@@ -19,23 +19,31 @@
     "words": "彼らにとって現状の一切は苦痛であり、下り坂はこの先も続いていくと外挿できる。",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://note.com/ngethoma/n/n9287255bb570'>https://note.com/ngethoma/n/n9287255bb570</a>",
+    "source": "<a href='https://note.com/ngethoma/n/n9287255bb570'>note.com/ngethoma/n/n9287255bb570</a>",
     "sub": "け゚とま",
+    "context": ""
+  },
+  {
+    "words": "ここずっと思ってるけど時報bot多すぎるよね\n起きれない人のめっちゃ枕元に置いてある目覚ましみたいな",
+    "trans": "",
+    "type": "lines",
+    "source": "<a href='https://mstdn.kemono-friends.info/@konoha_expert/111916274562342029'>mstdn.kemono-friends.info/@konoha_expert/111916274562342029</a>,\n<a href='https://mstdn.kemono-friends.info/@konoha_expert/111916278468711779'>111916278468711779 </a>",
+    "sub": "すとりぎ",
     "context": ""
   },
   {
     "words": "面白いことには、その瞬間より後の予定が一つも無いのです。カレンダーにどんな些末な、あるいは抽象的な一文も「書くことができない」。みなさんの人生に、そんな瞬間はあったでしょうか？",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://ima.goo.ne.jp/column/article/8431.html'>https://ima.goo.ne.jp/column/article/8431.html</a>",
+    "source": "<a href='http://web.archive.org/web/20200602234917/https://ima.goo.ne.jp/column/article/8431.html'>ima.goo.ne.jp/column/article/8431.html</a>",
     "sub": "大西拓磨",
     "context": ""
   },
   {
-    "words": "個人的には感じの悪い制作物を好ましく思っていたいという欲望を持っています。\nなぜなら、それらを好ましく思っている限り、あたかも自分が謙虚な存在であるかのように錯覚できるからです。",
+    "words": "個人的には感じの悪い制作物を好ましく思っていたいという欲望を持っています。なぜなら、それらを好ましく思っている限り、あたかも自分が謙虚な存在であるかのように錯覚できるからです。",
     "trans": "",
     "type": "lines",
-    "source": "<a href='http://www.kaminotane.com/2024/03/05/25480/'>http://www.kaminotane.com/2024/03/05/25480/</a>",
+    "source": "<a href='http://www.kaminotane.com/2024/03/05/25480/'>www.kaminotane.com/2024/03/05/25480/</a>",
     "sub": "細金卓矢",
     "context": ""
   },
@@ -43,15 +51,39 @@
     "words": "そんなに心配しなくていいよ。\nそのうち風が見えてくるから。",
     "trans": "",
     "type": "copy",
-    "source": "<a href='https://dic.nicovideo.jp/a/COMIC%20LOの表紙キャッチコピーの一覧'>https://dic.nicovideo.jp/a/COMIC LOの表紙キャッチコピーの一覧</a>",
+    "source": "<a href='https://dic.nicovideo.jp/a/COMIC%20LOの表紙キャッチコピーの一覧'>COMIC LO Vol.207 表紙</a>",
     "sub": "W",
+    "context": ""
+  },
+  {
+    "words": "There's nothing.No birds, no insects, no car noise, nothing. Just the wind.\nIt's so goddamn quiet.",
+    "trans": "何も無いんです。鳥の声、虫の声、車の走る音、何もかも。風だけです。\n恐ろしいほど静かじゃないですか。",
+    "type": "lines",
+    "source": "SCP-3936",
+    "sub": "",
+    "context": ""
+  },
+  {
+    "words": "It's a beautiful day.",
+    "trans": "いい天気だ。",
+    "type": "lines",
+    "source": "SCP-3519",
+    "sub": "",
+    "context": ""
+  },
+  {
+    "words": "反ミーム部門は存在しない。",
+    "trans": "There is no Antimemetics Division.",
+    "type": "lines",
+    "source": "あなたの最後の初日",
+    "sub": "qntm",
     "context": ""
   },
   {
     "words": "いつから朝でどこから友達なの？",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://www.youtube.com/watch?v=8_3-NOuFJbE'>https://www.youtube.com/watch?v=8_3-NOuFJbE</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=8_3-NOuFJbE'>www.youtube.com/watch?v=8_3-NOuFJbE</a>",
     "sub": "魔界ノりりむ",
     "context": ""
   },
@@ -59,7 +91,7 @@
     "words": "もう分かったわ、全部、全部分かった。\n風の音も、空の声も、鳥の声も。全部分かった。",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320'>https://www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320'>www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320</a>",
     "sub": "月ノ美兎",
     "context": ""
   },
@@ -67,15 +99,15 @@
     "words": "マジで年々空が綺麗に見えてくるのなんでなんだろうな",
     "trans": "",
     "type": "comment",
-    "source": "<a href='https://www.youtube.com/watch?v=A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg'>https://www.youtube.com/watch?v=A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg'>youtu.be/A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg</a>",
     "sub": "いもけんぴ",
     "context": ""
   },
   {
-    "words": "ニートしてた時、雨の日だけ心が軽くなった。外に出ないでいい理由があるのが心地よかった。",
+    "words": "ニートしてた時、雨の日だけ心が軽くなった。\n外に出ないでいい理由があるのが心地よかった。",
     "trans": "",
     "type": "comment",
-    "source": "<a href='https://www.youtube.com/watch?v=nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg'>https://www.youtube.com/watch?v=nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg'>youtu.be/nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg</a>",
     "sub": "骨骨太",
     "context": ""
   },
@@ -83,8 +115,8 @@
     "words": "薬は自身の能力の欠如の言い訳ではない",
     "trans": "",
     "type": "comment",
-    "source": "<a href='https://www.nicovideo.jp/watch/sm43553422'>https://www.nicovideo.jp/watch/sm43553422</a>",
-    "sub": "コメント",
+    "source": "<a href='https://www.nicovideo.jp/watch/sm43553422'>www.nicovideo.jp/watch/sm43553422</a>",
+    "sub": "コメント番号9",
     "context": ""
   },
   {
@@ -107,7 +139,7 @@
     "words": "新しい年が来たのに、あなたはまだ古いカレンダーを使っています.... !😅😂🤣",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://x.com/amit0282/status/1779443419640664523'>https://x.com/amit0282/status/1779443419640664523</a>",
+    "source": "<a href='https://x.com/amit0282/status/1779443419640664523'>x.com/amit0282/status/1779443419640664523</a>",
     "sub": "@amit0282",
     "context": "ポエムなスパム。"
   },
@@ -115,7 +147,7 @@
     "words": "びっくりするために外いこ。どうなるかなー",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/adachirei0/status/1778252983475810557'>https://twitter.com/adachirei0/status/1778252983475810557</a>",
+    "source": "<a href='https://twitter.com/adachirei0/status/1778252983475810557'>twitter.com/adachirei0/status/1778252983475810557</a>",
     "sub": "足立レイ (@adachirei0)",
     "context": ""
   },
@@ -123,7 +155,7 @@
     "words": "桜の花びらがスマホの画面の上に落ちてきて思わずスクショのボタン押しちゃった",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/ujiqn/status/1780028190729400624'>https://twitter.com/ujiqn/status/1780028190729400624</a>",
+    "source": "<a href='https://twitter.com/ujiqn/status/1780028190729400624'>twitter.com/ujiqn/status/1780028190729400624</a>",
     "sub": "氏くん (@ujiqn)",
     "context": ""
   },
@@ -131,7 +163,7 @@
     "words": "顔面の話やめてください\nインターネットの人間に顔面ありません",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/peter_voca/status/1754915133422501927'>https://twitter.com/peter_voca/status/1754915133422501927</a>",
+    "source": "<a href='https://twitter.com/peter_voca/status/1754915133422501927'>twitter.com/peter_voca/status/1754915133422501927</a>",
     "sub": "ピーター (@peter_voca)",
     "context": ""
   },
@@ -139,7 +171,7 @@
     "words": "わたしも末尾に?kawaii=trueをつけて生きていきたい",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/onepalacekey/status/1785716055060394136'>https://twitter.com/onepalacekey/status/1785716055060394136</a>",
+    "source": "<a href='https://twitter.com/onepalacekey/status/1785716055060394136'>twitter.com/onepalacekey/status/1785716055060394136</a>",
     "sub": "いちのみやけ〜さん (@onepalacekey)",
     "context": ""
   },
@@ -147,7 +179,7 @@
     "words": "コレへのｱﾝｻｰがﾌﾞﾙｰｽｶｲｱﾅﾙﾎｽﾋﾟﾀﾙなんだよな。本当の青空より美しいスマホで見る空の青",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/ashMB_3rd/status/1742442571430007084'>https://twitter.com/ashMB_3rd/status/1742442571430007084</a>",
+    "source": "<a href='https://twitter.com/ashMB_3rd/status/1742442571430007084'>twitter.com/ashMB_3rd/status/1742442571430007084</a>",
     "sub": "ヴェルヂ (@ashMB_3rd)",
     "context": "<a href='https://twitter.com/AnalHospital'>Blue sky, anal hospital (@AnalHospital)</a>"
   },
@@ -156,15 +188,23 @@
     "trans": "",
     "type": "words",
     "source": "第６基幹塔の人工知能",
-    "sub": "少女終末旅行",
+    "sub": "少女終末旅行 40話",
     "context": ""
   },
   {
-    "words": "馬鹿みたい。",
+    "words": "僕はここで\n３人でかけっこするために\n生まれてきたんじゃないかって",
     "trans": "",
     "type": "words",
-    "source": "ユキ",
-    "sub": "ダンス・ダンス・ダンス",
+    "source": "アルミン",
+    "sub": "進撃の巨人 137話",
+    "context": ""
+  },
+  {
+    "words": "当店はタクティクスオウガ？ではございませんが…",
+    "trans": "",
+    "type": "words",
+    "source": "青空舞舞",
+    "sub": "ガラグロガラゲロ 101話",
     "context": ""
   },
   {
@@ -176,7 +216,7 @@
     "context": ""
   },
   {
-    "words": "廊下で転ぶと鼻血が出て、 人生で転ぶと涙が出るんだ",
+    "words": "廊下で転ぶと鼻血が出て、\n人生で転ぶと涙が出るんだ",
     "trans": "",
     "type": "words",
     "source": "櫛枝実乃梨",
@@ -184,12 +224,20 @@
     "context": ""
   },
   {
-    "words": "黑，真他妈的黑啊",
+    "words": "馬鹿みたい。",
     "trans": "",
+    "type": "words",
+    "source": "ユキ",
+    "sub": "ダンス・ダンス・ダンス",
+    "context": ""
+  },
+  {
+    "words": "黑，真他妈的黑啊",
+    "trans": "暗い。クソみたいに暗い",
     "type": "words",
     "source": "＜アルティメット・ロー＞艦長",
     "sub": "三体Ⅱ『黒暗森林』下",
-    "context": "「暗い。クソみたいに暗い」"
+    "context": ""
   },
   {
     "words": "これくらいの感じで\nいつまでもいたいよね",
@@ -232,7 +280,7 @@
     "context": ""
   },
   {
-    "words": "なんて\n大きくて\nおぞましく\n美しい星だろう\nでも僕たちにはもういらないね\nないね",
+    "words": "なんて\n大きくて\nおぞましく\n美しい星だろう",
     "trans": "",
     "type": "lyrics",
     "source": "異星にいこうね",
@@ -240,7 +288,7 @@
     "context": ""
   },
   {
-    "words": "例えば今夜眠って\n目覚めたときに　起きる理由が\nひとつも見つからない\n朝が来たら　わたしはどうする？",
+    "words": "例えば今夜眠って\n目覚めたときに　起きる理由が\nひとつも見つからない\n朝が来たら　わたしは　どうする？",
     "trans": "",
     "type": "lyrics",
     "source": "きゅうくらりん",
@@ -324,7 +372,7 @@
     "trans": "",
     "type": "lyrics",
     "source": "ストロボラスト",
-    "sub": "",
+    "sub": "椎名もた",
     "context": ""
   }
 ]
