@@ -8,27 +8,11 @@
     "context": ""
   },
   {
-    "words": "No one's around to play with Wumpus.",
-    "trans": "",
-    "type": "lines",
-    "source": "<a href='https://discord.com/channels/@me'>discord.com/channels/@me</a>",
-    "sub": "Discord Inc.",
-    "context": ""
-  },
-  {
     "words": "彼らにとって現状の一切は苦痛であり、下り坂はこの先も続いていくと外挿できる。",
     "trans": "",
     "type": "lines",
     "source": "<a href='https://note.com/ngethoma/n/n9287255bb570'>note.com/ngethoma/n/n9287255bb570</a>",
     "sub": "け゚とま",
-    "context": ""
-  },
-  {
-    "words": "ここずっと思ってるけど時報bot多すぎるよね\n起きれない人のめっちゃ枕元に置いてある目覚ましみたいな",
-    "trans": "",
-    "type": "lines",
-    "source": "<a href='https://mstdn.kemono-friends.info/@konoha_expert/111916274562342029'>mstdn.kemono-friends.info/@konoha_expert/111916274562342029</a>,\n<a href='https://mstdn.kemono-friends.info/@konoha_expert/111916278468711779'>111916278468711779 </a>",
-    "sub": "すとりぎ",
     "context": ""
   },
   {
@@ -48,6 +32,20 @@
     "context": ""
   },
   {
+    "words": "No one's around to play with Wumpus.",
+    "trans": "",
+    "type": "lines",
+    "source": "<a href='https://discord.com/channels/@me'>discord.com/channels/@me</a>",
+    "sub": "Discord Inc.",
+    "context": ""
+  },
+  {
+    "words": "サーバーに到達しなかったため、テストを実施できませんでした。インターネットに接続していない可能性があります。",
+    "trans": "",
+    "type": "lines",
+    "source": "<a href='https://fast.com'>fast.com</a>"
+  },
+ {
     "words": "そんなに心配しなくていいよ。\nそのうち風が見えてくるから。",
     "trans": "",
     "type": "copy",
@@ -56,10 +54,10 @@
     "context": ""
   },
   {
-    "words": "There's nothing.No birds, no insects, no car noise, nothing. Just the wind.\nIt's so goddamn quiet.",
-    "trans": "何も無いんです。鳥の声、虫の声、車の走る音、何もかも。風だけです。\n恐ろしいほど静かじゃないですか。",
+    "words": "There's nothing. No birds, no insects, no car noise, nothing. Just the wind. It's so goddamn quiet.",
+    "trans": "何も無いんです。鳥の声、虫の声、車の走る音、何もかも。風だけです。恐ろしいほど静かじゃないですか。",
     "type": "lines",
-    "source": "SCP-3936",
+    "source": "SCP-2935",
     "sub": "",
     "context": ""
   },
@@ -100,7 +98,7 @@
     "trans": "",
     "type": "comment",
     "source": "<a href='https://www.youtube.com/watch?v=A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg'>youtu.be/A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg</a>",
-    "sub": "いもけんぴ",
+    "sub": "いもけんぴ (@いもけんぴ-t4l)",
     "context": ""
   },
   {
@@ -108,7 +106,7 @@
     "trans": "",
     "type": "comment",
     "source": "<a href='https://www.youtube.com/watch?v=nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg'>youtu.be/nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg</a>",
-    "sub": "骨骨太",
+    "sub": "骨骨太 (@骨骨太)",
     "context": ""
   },
   {
@@ -160,12 +158,12 @@
     "context": ""
   },
   {
-    "words": "顔面の話やめてください\nインターネットの人間に顔面ありません",
+    "words": "コレへのｱﾝｻｰがﾌﾞﾙｰｽｶｲｱﾅﾙﾎｽﾋﾟﾀﾙなんだよな。本当の青空より美しいスマホで見る空の青",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/peter_voca/status/1754915133422501927'>twitter.com/peter_voca/status/1754915133422501927</a>",
-    "sub": "ピーター (@peter_voca)",
-    "context": ""
+    "source": "<a href='https://twitter.com/ashMB_3rd/status/1742442571430007084'>twitter.com/ashMB_3rd/status/1742442571430007084</a>",
+    "sub": "ヴェルヂ (@ashMB_3rd)",
+    "context": "<a href='https://twitter.com/AnalHospital'>Blue sky, anal hospital (@AnalHospital)</a>"
   },
   {
     "words": "わたしも末尾に?kawaii=trueをつけて生きていきたい",
@@ -176,19 +174,67 @@
     "context": ""
   },
   {
-    "words": "コレへのｱﾝｻｰがﾌﾞﾙｰｽｶｲｱﾅﾙﾎｽﾋﾟﾀﾙなんだよな。本当の青空より美しいスマホで見る空の青",
+    "words": "顔面の話やめてください\nインターネットの人間に顔面ありません",
     "trans": "",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/ashMB_3rd/status/1742442571430007084'>twitter.com/ashMB_3rd/status/1742442571430007084</a>",
-    "sub": "ヴェルヂ (@ashMB_3rd)",
-    "context": "<a href='https://twitter.com/AnalHospital'>Blue sky, anal hospital (@AnalHospital)</a>"
+    "source": "<a href='https://twitter.com/peter_voca/status/1754915133422501927'>twitter.com/peter_voca/status/1754915133422501927</a>",
+    "sub": "ピーター (@peter_voca)",
+    "context": ""
   },
   {
-    "words": "だから頼みたくなるし\n…祈りたくなる",
+    "words": "クラゲの水槽は、デジタルに丸められず、静止すると生命が死ぬという、動くに足る最大の強固な理由付けのある、もっとも完璧な映像である。",
+    "trans": "",
+    "type": "tweet",
+    "source": "<a href='https://twitter.com/IAR_night/status/1841455886902120929'>twitter.com/IAR_night/status/1841455886902120929</a>",
+    "sub": "つにてんてん (@IAR_night)",
+    "context": ""
+  },
+  {
+    "words": "ここずっと思ってるけど時報bot多すぎるよね\n起きれない人のめっちゃ枕元に置いてある目覚ましみたいな",
+    "trans": "",
+    "type": "toot",
+    "source": "<a href='https://mstdn.kemono-friends.info/@konoha_expert/111916274562342029'>mstdn.kemono-friends.info/@konoha_expert/111916274562342029</a>,\n<a href='https://mstdn.kemono-friends.info/@konoha_expert/111916278468711779'>111916278468711779 </a>",
+    "sub": "すとりぎ (@konoha_expert)",
+    "context": ""
+  },
+  {
+    "words": "夢の中　知らない単語をググってる　ヒット10件　記憶のガラクタ",
+    "trans": "",
+    "type": "tanka",
+    "source": "<a href='https://twitter.com/2r96/status/1252096869901103109'>twitter.com/2r96/status/1252096869901103109</a>",
+    "sub": "フロクロ(Frog96) (@2r96)",
+    "context": ""
+  },
+  {
+    "words": "だから頼みたくなるし\n\n…祈りたくなる",
     "trans": "",
     "type": "words",
     "source": "第６基幹塔の人工知能",
     "sub": "少女終末旅行 40話",
+    "context": ""
+  },
+  {
+    "words": "小さい頃真昼に雷を見た\n水色の空に\n水銀をぽろろところがしたような\n淡い閃光",
+    "trans": "",
+    "type": "words",
+    "source": "桐山零",
+    "sub": "3月のライオン 話",
+    "context": ""
+  },
+  {
+    "words": "でも　この街なら　許される気がした\n僕がまぎれ込んでも\n幸せになれなくても",
+    "trans": "",
+    "type": "words",
+    "source": "桐山零",
+    "sub": "3月のライオン 99話",
+    "context": ""
+  },
+  {
+    "words": "どうもこの世界ってのはただ肉の塊が騒いだり動き回っているだけで　特に意味は無いらしい",
+    "trans": "",
+    "type": "words",
+    "source": "ユミル",
+    "sub": "進撃の巨人 話",
     "context": ""
   },
   {
@@ -197,6 +243,14 @@
     "type": "words",
     "source": "アルミン",
     "sub": "進撃の巨人 137話",
+    "context": ""
+  },
+  {
+    "words": "私の……\n\n私の…番なのか？",
+    "trans": "",
+    "type": "words",
+    "source": "クラボフスキ",
+    "sub": "チ。―地球の運動について―",
     "context": ""
   },
   {
@@ -269,6 +323,30 @@
     "type": "lyrics",
     "source": "Moonlight",
     "sub": "米津玄師",
+    "context": ""
+  },
+  {
+    "words": "明日は何しようか\n暇ならわかり合おうぜ",
+    "trans": "",
+    "type": "lyrics",
+    "source": "ブレーメン",
+    "sub": "ヨルシカ",
+    "context": ""
+  },
+  {
+    "words": "そうだ、きっとそうだ\nあの世ではロックンロールが流れてるんだ",
+    "trans": "",
+    "type": "lyrics",
+    "source": "八月、某、月明かり",
+    "sub": "ヨルシカ",
+    "context": ""
+  },
+  {
+    "words": "先生の夢は何だったんですか。\n\n大人になると忘れちゃうものなんですか。",
+    "trans": "",
+    "type": "lyrics",
+    "source": "ヒッチコック",
+    "sub": "ヨルシカ",
     "context": ""
   },
   {
