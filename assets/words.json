@@ -45,36 +45,12 @@
     "type": "lines",
     "source": "<a href='https://fast.com'>fast.com</a>"
   },
- {
+  {
     "words": "そんなに心配しなくていいよ。\nそのうち風が見えてくるから。",
     "trans": "",
-    "type": "copy",
+    "type": "lines",
     "source": "<a href='https://dic.nicovideo.jp/a/COMIC%20LOの表紙キャッチコピーの一覧'>COMIC LO Vol.207 表紙</a>",
     "sub": "W",
-    "context": ""
-  },
-  {
-    "words": "There's nothing. No birds, no insects, no car noise, nothing. Just the wind. It's so goddamn quiet.",
-    "trans": "何も無いんです。鳥の声、虫の声、車の走る音、何もかも。風だけです。恐ろしいほど静かじゃないですか。",
-    "type": "lines",
-    "source": "SCP-2935",
-    "sub": "",
-    "context": ""
-  },
-  {
-    "words": "It's a beautiful day.",
-    "trans": "いい天気だ。",
-    "type": "lines",
-    "source": "SCP-3519",
-    "sub": "",
-    "context": ""
-  },
-  {
-    "words": "反ミーム部門は存在しない。",
-    "trans": "There is no Antimemetics Division.",
-    "type": "lines",
-    "source": "あなたの最後の初日",
-    "sub": "qntm",
     "context": ""
   },
   {
@@ -126,19 +102,19 @@
     "context": ""
   },
   {
-    "words": "熱々のファミチキをストゼロで流し込め",
+    "words": "まだ覚えている。まだ思い出せる。",
     "trans": "",
-    "type": "entry",
-    "source": "WsWVipGG0",
-    "sub": "",
-    "context": ""
+    "type": "lines",
+    "source": "<a href='https://twitter.com/dreamofriamu'>twitter.com/dreamofriamu</a>",
+    "sub": "夢見りあむ お気持ち表明採点botだった (@dreamofriamu)",
+    "context": "夢見りあむに関するお気持ち表明を採点するbotだったもの。"
   },
   {
-    "words": "風・・・なんだろう吹いてきてる確実に、着実に、俺たちのほうに。",
+    "words": "顔面の話やめてください\nインターネットの人間に顔面ありません",
     "trans": "",
-    "type": "entry",
-    "source": "g373IYdK0",
-    "sub": "",
+    "type": "tweet",
+    "source": "<a href='https://twitter.com/peter_voca/status/1754915133422501927'>twitter.com/peter_voca/status/1754915133422501927</a>",
+    "sub": "ピーター (@peter_voca)",
     "context": ""
   },
   {
@@ -182,14 +158,6 @@
     "context": ""
   },
   {
-    "words": "顔面の話やめてください\nインターネットの人間に顔面ありません",
-    "trans": "",
-    "type": "tweet",
-    "source": "<a href='https://twitter.com/peter_voca/status/1754915133422501927'>twitter.com/peter_voca/status/1754915133422501927</a>",
-    "sub": "ピーター (@peter_voca)",
-    "context": ""
-  },
-  {
     "words": "クラゲの水槽は、デジタルに丸められず、静止すると生命が死ぬという、動くに足る最大の強固な理由付けのある、もっとも完璧な映像である。",
     "trans": "",
     "type": "tweet",
@@ -214,6 +182,46 @@
     "context": ""
   },
   {
+    "words": "熱々のファミチキをストゼロで流し込め",
+    "trans": "",
+    "type": "entry",
+    "source": "WsWVipGG0",
+    "sub": "",
+    "context": ""
+  },
+  {
+    "words": "風・・・なんだろう吹いてきてる確実に、着実に、俺たちのほうに。",
+    "trans": "",
+    "type": "entry",
+    "source": "g373IYdK0",
+    "sub": "",
+    "context": ""
+  },
+  {
+    "words": "There's nothing. No birds, no insects, no car noise, nothing. Just the wind. It's so goddamn quiet.",
+    "trans": "何も無いんです。鳥の声、虫の声、車の走る音、何もかも。風だけです。恐ろしいほど静かじゃないですか。",
+    "type": "lines",
+    "source": "SCP-2935",
+    "sub": "",
+    "context": ""
+  },
+  {
+    "words": "It's a beautiful day.",
+    "trans": "いい天気だ。",
+    "type": "lines",
+    "source": "SCP-3519",
+    "sub": "",
+    "context": ""
+  },
+  {
+    "words": "反ミーム部門は存在しない。",
+    "trans": "There is no Antimemetics Division.",
+    "type": "lines",
+    "source": "あなたの最後の初日",
+    "sub": "qntm",
+    "context": ""
+  },
+  {
     "words": "だから頼みたくなるし\n\n…祈りたくなる",
     "trans": "",
     "type": "words",
@@ -222,27 +230,11 @@
     "context": ""
   },
   {
-    "words": "小さい頃真昼に雷を見た\n水色の空に\n水銀をぽろろところがしたような\n淡い閃光",
-    "trans": "",
-    "type": "words",
-    "source": "桐山零",
-    "sub": "3月のライオン 話",
-    "context": ""
-  },
-  {
     "words": "でも　この街なら　許される気がした\n僕がまぎれ込んでも\n幸せになれなくても",
     "trans": "",
     "type": "words",
     "source": "桐山零",
     "sub": "3月のライオン 99話",
-    "context": ""
-  },
-  {
-    "words": "どうもこの世界ってのはただ肉の塊が騒いだり動き回っているだけで　特に意味は無いらしい",
-    "trans": "",
-    "type": "words",
-    "source": "ユミル",
-    "sub": "進撃の巨人 話",
     "context": ""
   },
   {
@@ -334,18 +326,18 @@
     "context": ""
   },
   {
+    "words": "降りても舞台だ",
+    "trans": "",
+    "type": "lyrics",
+    "source": "wi (l) d-screen baroque",
+    "sub": "スタァライト九九組",
+    "context": ""
+  },
+  {
     "words": "明日は何しようか\n暇ならわかり合おうぜ",
     "trans": "",
     "type": "lyrics",
     "source": "ブレーメン",
-    "sub": "ヨルシカ",
-    "context": ""
-  },
-  {
-    "words": "そうだ、きっとそうだ\nあの世ではロックンロールが流れてるんだ",
-    "trans": "",
-    "type": "lyrics",
-    "source": "八月、某、月明かり",
     "sub": "ヨルシカ",
     "context": ""
   },
@@ -390,19 +382,19 @@
     "context": ""
   },
   {
-    "words": "人間味ごと　焼金にしとけよ",
-    "trans": "",
-    "type": "lyrics",
-    "source": "ダップル",
-    "sub": "OLDUCT",
-    "context": ""
-  },
-  {
     "words": "インターネットがなかったら\nまたインターネットが作られるでしょう",
     "trans": "",
     "type": "lyrics",
     "source": "インターネットがなかったら",
     "sub": "薄塩指数",
+    "context": ""
+  },
+  {
+    "words": "人間味ごと　焼金にしとけよ",
+    "trans": "",
+    "type": "lyrics",
+    "source": "ダップル",
+    "sub": "OLDUCT",
     "context": ""
   },
   {
@@ -435,6 +427,22 @@
     "type": "lyrics",
     "source": "深夜コンビニ昆虫図鑑",
     "sub": "窓辺リカ",
+    "context": ""
+  },
+  {
+    "words": "生きることを考えず生きてね\n自然にかさぶたが剥がれるように\n壊れることを考えず使ってね\n安いものに名前をつけるように",
+    "trans": "",
+    "type": "lyrics",
+    "source": "おへんぢください",
+    "sub": "窓辺リカ",
+    "context": ""
+  },
+  {
+    "words": "ぼくは悲しくなったんだ\n追いつけないリズムに目が眩んだ",
+    "trans": "",
+    "type": "lyrics",
+    "source": "きみが大人になったんだ",
+    "sub": "笹川真生",
     "context": ""
   },
   {
