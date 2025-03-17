@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+  font-family: "Yu Gothic", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.7;
+  background-color: #eaedf0;
+  color: #1e2024;
+  transition: background-color 800ms ease;
+}
+body.dark {
+  font-weight: 400;
+  background-color: #1e2024;
+  color: #eaedf0;
+}
+body.dark .masthead,
+body.dark .footer {
+  background-color: #111317;
+}
+body.dark img {
+  filter: brightness(70%);
+}
+
+body a:link {
+  color: #88f;
+}
+body a:visited {
+  color: #88c;
+}
+
+h2 {
+  border-bottom: 1px solid;
+  margin: 11% 0 2%;
+}
+
+h3 {
+  margin: 5% 0 1%;
+}
+
+p {
+  margin: 0 0;
+}
+
+ul {
+  margin: 1% -1.5% 1%;
+}
+
+hr {
+  margin: 7% 0%;
+}
+
+img {
+  width: 100%;
+}
+img.small {
+  width: 60%;
+  float: right;
+  padding: 1rem;
+}
+
+.logo {
+  font-family: "Space Mono", monospace;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+.logo a:visited {
+  color: inherit;
+}
+.logo a:hover {
+  text-decoration: underline;
+}
+b.logo {
+  font-size: 1.4em;
+  margin: 2% 0;
+  text-decoration: none;
+}
+
+.masthead,
+.footer {
+  padding: 0 1rem;
+  background-color: #dadde0;
+  transition: background-color 800ms ease;
+}
+.masthead {
+  margin-bottom: 1%;
+}
+.footer {
+  margin-top: 8%;  
+}
+
+.masthead-inner,
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 1px solid #1e2024;
+  padding: 0.4rem;
+  background: #1e2024;
+  border-radius: 5px;
+  transition: background 200ms ease;
+  color: #eaedf0;
+  font-size: 0.85em;
+  font-family: "Space Mono", monospace;
+}
+button:hover {
+  background: rgb(30 32 36 / .8);
+}
+
+.dark-button i {
+  transform: rotate(35deg);
+  margin-left: 0.3rem;
+}
+
+main {
+  padding: 1rem;
+  max-width: 900px;
+  margin: auto;
+}

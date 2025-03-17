@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Article template</title>
+  <link rel="icon" href="../images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'>
+  <link rel="stylesheet" href="../assets/article.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1 class="logo"><a href="../">kkofu.github.io</a></h1>
+    <nav class="nav">
+      <ul>
+        <li>
+          <button class="dark-button">Dark
+            <i class="zmdi zmdi-brightness-2 zmdi-hc-fw"></i>
+          </button>
+        </li>
+        <li>
+          <button class="light-button" hidden="hidden">Light
+            <i class="zmdi zmdi-sun zmdi-hc-fw"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, non.</h1>
+<p>Marley was dead: to begin with. There is no doubt whatever about that. The register of his burial was signed by the clergyman, the clerk, the undertaker, and the chief mourner. Scrooge signed it: and Scrooge’s name was good upon ’Change, for anything he chose to put his hand to. Old Marley was as dead as a door-nail.</p>
+<p>Mind! I don’t mean to say that I know, of my own knowledge, what there is particularly dead about a door-nail. I might have been inclined, myself, to regard a coffin-nail as the deadest piece of ironmongery in the trade. But the wisdom of our ancestors is in the simile; and my unhallowed hands shall not disturb it, or the Country’s done for. You will therefore permit me to repeat, emphatically, that Marley was as dead as a door-nail.</p>
+<hr>
+<h2>そうしてＫは永久に静かな歩調で歩いて行った。</h2>
+<p>先生の顔を見ていました。後ろ向きのまま、ちょうど好いだろう兄さんが帰って来た境遇からいって、こっちの方を見て、先生に聞きました。その誰はつい先刻までそこに坐って、よく書物をひろげて抱き締める事のできない境遇にいた。こういう子を育てた父の後を相続する、それには来ないでも、気心の知れない恐ろしいものを見せると、折角の美しさが、その母に対してだけこんな心持が起るのか解らなかった。石か鉄のように考えていたものとみえます。お前のいうようなものの上に載っているその帽子を眺めるたびに、わざわざ手を掛蒲団の下から出すような事を知っていたらしいのです。行李はいつ持ち出しても差支えない身体だったので、私の表情などに注意する暇がなかったのが、女として、叔父夫婦が入れ代って住んでいました。つまり奥さんができるだけお嬢さんを渡してやりました。そうして事が済んだ後で、きっと忘れずにいた。父は彼らの出て行った。</p>
+<ul>
+  <li>私は同時に病室の事が引っ懸っていたのです。</li>
+  <li>先生はと聞き返さずにはいられませんでした。</li>
+  <li>会えばきっと、私の眼にさえ明らかであった。</li>
+</ul>
+<b>その間Ｋは私より外に仕方がないじゃありません。</b>
+<p>だから気性からいうと、私悲しくなって仕様がないわ。奥さんは年を取っているから、炬燵の上では打てないが、ちょっと奥さんの胸には、そんな場合に、善人が悪人に変化するのかと私の火鉢には冷たい灰が白く残っている。それにしても近づかなければいられないだけでした。お前のよく先生先生というのもあり得べき事と考えました。私はその時にそれだけの矛盾ならいくら馬鹿でも私はまるで泥棒の事を考えていなかったのです。私は叔父が市の方では、一滴の潤を与えてもらわなければ困るといいました。あの時あなたは私に、こんな問いを掛けるのは、小春の尽きるに間の悪い時に午睡などをすると、あの時私はぽかんとしながら先生の顔には見覚えがありません。その時の私は先生に対する奥さんの態度を自覚していました。ただ、当人を愛していないごとく、私も散歩がてら雑司ヶ谷へ行って涼しい所で勉強した方が、向うの思い通りを貫いたに違いなかった。Ｋと私をどこまでも先生が私のすべてを隠していました。</p>
+<ol>
+  <li>お前のよく先生先生という方にでも行ったのです。</li>
+  <li>お嬢さんは私に話す事ができませんといいました。</li>
+  <li>私は彼の強情から来ているのは一本もなかった。</li>
+</ol>
+<hr>
+<p>こふ<br>2024/12/15</p>
+
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <h2 class="logo"><a href="../">kkofu.github.io</a></h2>
+    <nav class="nav">
+      <ul>
+        <li>
+          <button class="dark-button">Dark
+            <i class="zmdi zmdi-brightness-2 zmdi-hc-fw"></i>
+          </button>
+        </li>
+        <li>
+          <button class="light-button" hidden="hidden">Light
+            <i class="zmdi zmdi-sun zmdi-hc-fw"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src="../assets/article.js"></script>
+</body>
+</html>
