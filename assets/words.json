@@ -8,6 +8,14 @@
     "context": ""
   },
   {
+    "words": "音楽がきっと許してくれる。大丈夫、大丈夫、大丈夫。",
+    "trans": "",
+    "type": "lines",
+    "source": "<a href='https://reissuerecords.net/diary/%e9%9a%99%e9%96%93/'>reissuerecords.net/diary/隙間/</a>",
+    "sub": "米津玄師",
+    "context": ""
+  },
+  {
     "words": "彼らにとって現状の一切は苦痛であり、下り坂はこの先も続いていくと外挿できる。",
     "trans": "",
     "type": "lines",
@@ -40,6 +48,30 @@
     "context": ""
   },
   {
+    "words": "現実と妥協したのではない。あらゆる現実をすべて自分のほうへねじ曲げたのだ。",
+    "trans": "",
+    "type": "lines",
+    "source": "「マルサの女」撮影日記 (この人の月間日記 第三十回), 文藝春秋 65 (2), p.366, 1987年2月",
+    "sub": "伊丹十三",
+    "context": "ATR音素バランス503文のA01の元となった文章。"
+  },
+  {
+    "words": "インターネットで地球はもっとすばらしい星になります。",
+    "trans": "",
+    "type": "lines",
+    "source": "<a href='https://web.archive.org/web/19961030071137/www.attjens.co.jp/jens/jens.html'>www.attjens.co.jp/jens/jens.htm</a>",
+    "sub": "AT&T",
+    "context": "1996年当時、AT&Tはインターネット通信事業者として最大手の一つだった。"
+  },
+  {
+    "words": "あなたではなく、わたしたちです",
+    "trans": "",
+    "type": "lines",
+    "source": "bing.com",
+    "sub": "Microsoft",
+    "context": ""
+  },
+  {
     "words": "No one's around to play with Wumpus.",
     "trans": "",
     "type": "lines",
@@ -57,7 +89,7 @@
     "words": "そんなに心配しなくていいよ。\nそのうち風が見えてくるから。",
     "trans": "",
     "type": "lines",
-    "source": "<a href='https://dic.nicovideo.jp/a/COMIC%20LOの表紙キャッチコピーの一覧'>COMIC LO Vol.207 表紙</a>",
+    "source": "COMIC LO Vol.207 表紙</a>",
     "sub": "W",
     "context": ""
   },
@@ -132,6 +164,14 @@
     "source": "<a href='https://x.com/amit0282/status/1779443419640664523'>x.com/amit0282/status/1779443419640664523</a>",
     "sub": "@amit0282",
     "context": "ポエムなスパム。"
+  },
+  {
+    "words": "今欲しいものは、アップデート。",
+    "trans": "",
+    "type": "tweet",
+    "source": "<a href='https://twitter.com/tsumuginen/status/1908503638408040530'>twitter.com/tsumuginen/status/1908503638408040530</a>",
+    "sub": "紡ネン (@tsumuginen)",
+    "context": ""
   },
   {
     "words": "びっくりするために外いこ。どうなるかなー",
@@ -382,11 +422,43 @@
     "context": ""
   },
   {
+    "words": "あの人たちの知らない言葉で話してよう。",
+    "trans": "",
+    "type": "lyrics",
+    "source": "機拐島",
+    "sub": "赤坂んんん",
+    "context": ""
+  },
+  {
     "words": "止まないの雨が\n夏空を鮮明に描いたって",
     "trans": "",
     "type": "lyrics",
     "source": "雨き声残響",
     "sub": "Orangestar",
+    "context": ""
+  },
+  {
+    "words": "正しさなんて誰にもわかんないから君は何を願ってもいいの",
+    "trans": "",
+    "type": "lyrics",
+    "source": "時ノ雨、最終戦争",
+    "sub": "Orangestar",
+    "context": ""
+  },
+  {
+    "words": "今は恋しい\nすべてが愛しい",
+    "trans": "",
+    "type": "lyrics",
+    "source": "Goodbye, Shoegazer",
+    "sub": "二錠",
+    "context": ""
+  },
+  {
+    "words": "ジュース飲む光！",
+    "trans": "",
+    "type": "lyrics",
+    "source": "損",
+    "sub": "耳中華",
     "context": ""
   },
   {
