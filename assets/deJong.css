@@ -1,0 +1,12 @@
+#deJong {
+  position: absolute;
+  top: 13.8vh;
+  right: 2vh;
+  filter: invert(1);
+}
+
+@media screen and (min-width: 1281px) {
+  #deJong {
+    top: 10vh;
+  }
+}
