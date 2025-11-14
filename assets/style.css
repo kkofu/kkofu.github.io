@@ -1,7 +1,8 @@
 :root {
-	--txtcol: white;
-	--bgcol: black;
-	--linkcol: #4493f8;
+	--bg-color: #050505;
+  --link-color: #4447f8;
+	--link-visited: #4493f8;
+	--text-color: #e3e3e3;
 }
 
 html {
@@ -10,116 +11,114 @@ html {
 }
 
 body {
-	width: 80%;
-	max-width: 1080px;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: "Courier", "Courier New", "Courier Prime", monospace;
+	margin: 0 auto;
 	padding: 0;
 	padding-bottom: 100px;
-	margin: 0 auto;
-	color: var(--txtcol);
-	background-color: var(--bgcol);
-	font-family: "Courier", "Courier New", "Courier Prime", monospace;
-    background-image: url("../images/bg_dark.jpg");
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+	width: 85%;
 }
 
-main a:link {
-	color: #4447f8;
-}
-main a:visited:not(.link-img) {
-	color: var(--linkcol);
-}
-main a:hover:not(.link-img) {
-	color: var(--linkcol);
-	text-decoration: none;
+header h1 {
+	font-size: 2.8em;
+	margin: 1.3em 1em 0 0;
 }
 
-canvas { 
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	z-index: -1;
-}
-
-code {
-	font-family: monospace;
+main {
+	a:hover:not(.link-img) {
+		filter: brightness(2);
+		text-decoration: none;
+	}
+  a:link {
+    color: var(--link-color);
+	}
+	a:visited:not(.link-img) {
+		color: var(--link-visited);
+	}
 }
 
 footer {
+	bottom: 1em;
 	position: fixed;
-	bottom: 0;
-	right: 1.5%;
+	right: 1em;
 }
 
 .header-small {
+	color: var(--text-color);
+	font-size: 0.3em;
+	opacity: 5%;
 	position: absolute;
-	top: 6.5em;
-	right: 2em;
-	opacity: 15%;
-	color: #fff;
-	font-size: 0.75em;
+	right: 0;
 	text-decoration: none;
 }
 
-.common-head {
-	font-size: 2.5em;
-	margin: 1.3em 1em 1em 0;
+.about {
+	font-size: 0.75em;
+	left: 0;
+	opacity: 5%;
+	position: absolute;
+  a:link {
+    text-decoration: none;
+  }
+}
+
+.landing {
+	height: 100vh;
 }
 
 .top-bullet {
-	padding: 0px 20px 20px;
-	line-height: 2em;
 	font-size: 1.5em;
 	font-weight: bold;
-}
-
-.ul-sec {
-	padding: 5px 20px;
-	line-height: 0.9em;
-	font-size: 0.75em;
-	font-weight: normal;
-}
-
-.fomula {
-	position: absolute;
-	top: 150px;
-	right: 100px;
+	line-height: 2em;
+	padding: 0;
+	li {
+		ul {
+			font-size: 0.75em;
+			font-weight: normal;
+			line-height: 0.9em;
+			padding: 5px 20px;
+			li {
+				padding-bottom: 1em;
+			}
+		}
+		ul.links li a:hover {
+			filter: drop-shadow(0 0 30px);
+		}
+	}
 }
 
 .link-img {
-	color: var(--txtcol);
+	color: var(--text-color);
+}
+
+.links {
+	a[href*="scrapbox.io"]   { background-color: #00b42e; color: #ffffff; }
+	a[href*="kiite.jp"]      { background-color: #474747; color: #ffffff; }
+	a[href*="github.com"]    { background-color: #2b2e30; color: #ffffff; }
+	a[href*="discord.com"]   { background-color: #5562f6; color: #ffffff; }
+	a[href*="bsky.app"]      { background-color: #ffffff; color: #0886fe; }
+	a[href*="nostter.app"]   { background-color: #16202a; color: #71c9f7; }
+	a[href*="wikipedia.org"] { background-color: #101418; color: #ffffff; }
 }
 
 .button {
 	color: black;
-	background-color: black;
-	display: inline;
-	padding: 0px 20px;
-	margin: 5px 10px;
-	border-style: solid;
-	background-color: #DFDFDF;
+	background-color: #dfdfdf;
 	border-color: #ffffff #808080 #808080 #ffffff;
-	text-align: center;
+	border-style: solid;
+	display: inline;
 	font-family: serif;
 	font-style: italic;
 	font-weight: bold;
+	margin: 5px 10px;
+	padding: 0px 20px;
+	text-align: center;
 	letter-spacing: 2px;
-	color: black;
-}
-.button:hover {
-	cursor: pointer
-}
-.button:active {
-	border-color: #808080 #ffffff #ffffff #808080;
-}
-
-.about {
-	padding: 2.5em 0 0;
-	opacity: 25%;
-}
-.about a:link {
-	text-decoration: none;
+	&:hover {
+		cursor: pointer
+	}
+	&:active {
+		border-color: #808080 #ffffff #ffffff #808080;
+	}
 }

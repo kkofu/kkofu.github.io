@@ -5,62 +5,67 @@
     <meta name="description" content="This is a web page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="assets/deJong.js"></script>
+    <link rel="stylesheet" href="assets/deJong.css">
     <title>kkofu</title>
 </head>
+
 <body>
     <header>
-        <h1 style="font-size: 3.5em;">This is a web page.</h1>
-        <a href="pages/hello" class="header-small">Hello, Internet!</a>
+        <h1>This is a web page.<a href="pages/hello" class="header-small">Hello, Internet!</a></h1>
+        <p><a href='https://html.energy'>Simple</a>, <a href='https://justfuckingusehtml.com'>unadulterated</a> HTML<small> with a pinch of p5.js:</small></p>
     </header>
     <main>
-        <div>
+        <div class="landing">
             <ul class="top-bullet">
-                <li><a href="about">About</a></li>
-                <li><a href="pages/contents">Contents</a></li>
-                <li><a href="pages/profile">Profile</a></li>
+                <li><a href="about">About</a><a href="https://scrapbox.io/kofu-lab/kkofu.github.io" class="about">about</a></li>
+                <li><a href="../images/selfie.jpg" title="I hate introducing myself">Profile</a></li>
                 <li>Links
-                    <ul class="ul-sec">
-                        <li><a href="https://scrapbox.io/kofu-lab/" onclick="window.open(this.href); return false;" style="background-color: #00b42e; color: #ffffff">scrapbox</a></li><br>
-                        <li><a href="https://kiite.jp/playlist/DwDZeKDkj0" style="background-color: #474747; color: #ffffff;">kiite</a></li><br>
-                        <li><a href="https://discord.com/users/1008287185277034597" style="background-color: #5562f6; color: white">Discord</a></li><br>
-                        <li><a href="https://nostter.app/kkofu@kkofu.github.io" style="background-color: #16202a; color: #71c9f7;">nostr</a></li><br>
-                        <li><a href="https://bsky.app/profile/kkofu.github.io" style="background-color: #ffffff; color: #0886fe;">Bluesky</a></li>
+                    <ul class="links">
+                        <li><a href="https://scrapbox.io/kofu-lab/">scrapbox</a></li>
+                        <li><a href="https://kiite.jp/playlist/DwDZeKDkj0">kiite</a></li>
+                        <li><a href="https://discord.com/users/1008287185277034597">Discord</a></li>
+                        <li><a href="https://bsky.app/profile/kkofu.github.io">Bluesky</a></li>
+                        <li><a href="https://nostter.app/kkofu@kkofu.github.io">nostr</a></li>
+                        <li><a href="https://ja.wikipedia.org/wiki/User:kkofu">jawp</a></li>
+                    </ul>
+                </li>
+                <li>Contents
+                    <ul>
+                        <li><a href="pages/fusen">Internet stickey notes</a></li>
+                        <li><a href="droste">droste</a></li>
                     </ul>
                 </li>
             </ul>
-            <h3 style="padding-top:10em;">Banner</h3>
-            <a href="https://kkofu.github.io" class="link-img"><img 
-                src="images/banner.jpg"
-                style="border:.75px solid white; width:200px; height:auto;"
-                alt="kkofu"></a>link free!
-                <details style="border: .5px solid #444">
-                    <summary>source</summary>
-                    <code>
-                        &lt;a href=&quot;https://kkofu.github.io&quot;&gt;&lt;img src=&quot;https://kkofu.github.io/images/banner.png&quot; width="242px" height="40px" alt=&quot;kkofu&quot;&gt;&lt;/a&gt;
-                    </code>
-                </details>
-            <br><br>
-            <h3>Links(One-way)</h3>
-            <a href="https://ideoaves.github.io/" class="link-img"><img 
-                src="https://ideoaves.github.io/banner.png" 
-                style="width:200px; height:40px;"
-                alt="Ideoaves">
-            </a>
-            <a href="https://www.suzumenome.com"><img 
-                src="https://www.suzumenome.com/mutual-links/banners/szmnm-banner02.png" 
-                style="width:auto; height:40px; border:none;"
-                alt="すずめのめオフィシャルWEB バナー">
-            </a>
-            <a href="https://www.namigroove.com/" target="_blank" rel="noreferrer noopener"><img src="https://www.namigroove.com/wp-content/uploads/2023/12/namigroove_banner01.png" width="auto" height="40px" border="0" alt="なみぐるオフィシャルWEB バナー"></a>
-            <h3 class="about"><a href="https://scrapbox.io/kofu-lab/kkofu.github.io">about</a></h3>
+            <div id="deJong"></div>
+        </div>
+
+        <div>
+            <h3>Banner</h3>
+            <a href="https://kkofu.github.io" class="link-img">
+                <img src="images/banner.jpg" style="border:.75px solid white; width: 200px; height:auto;" alt="kkofu"></a>
+                link free!
+            <details style="border: .5px solid #444">
+                <summary>source</summary>
+                <code>
+                    &lt;a href=&quot;https://kkofu.github.io&quot;&gt;&lt;img src=&quot;https://kkofu.github.io/images/banner.png&quot; width="242px" height="40px" alt=&quot;kkofu&quot;&gt;&lt;/a&gt;
+                </code>
+            </details>
+        </div>
+        <div>
+            <h3>Banners (One-way)</h3>
+            <a href="https://mikanixonable.github.io"><img src="https://mikanixonable.github.io/banner.png" width="200" height="40" alt="月面植物園" /></a>
+            <a href="https://ideoaves.github.io/" class="link-img"><img src="https://ideoaves.github.io/banner.png" style="width:200px; height:40px;"alt="Ideoaves" /></a>
+            <a href="https://www.suzumenome.com"><img src="https://www.suzumenome.com/mutual-links/banners/szmnm-banner02.png" style="width:auto; height:40px; border:none;" alt="すずめのめオフィシャルWEB バナー" /></a>
+            <a href="https://www.namigroove.com/" target="_blank" rel="noreferrer noopener"><img src="https://www.namigroove.com/wp-content/uploads/2023/12/namigroove_banner01.png" style="width: auto; height: 40px; border: 0;" alt="なみぐるオフィシャルWEB バナー"></a>
         </div>
     </main>
+
     <footer>
-        <h4><a href="./">kkofu</a> &copy; 2024~</h4>
+        <a href="./">kkofu</a> 2024~
     </footer>
 </body>
 </html>
