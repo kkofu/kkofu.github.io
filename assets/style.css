@@ -1,8 +1,15 @@
 :root {
-	--bg-color: #050505;
+	--bg-color: #fafafa;
   --link-color: #4447f8;
 	--link-visited: #4493f8;
-	--text-color: #e3e3e3;
+	--text-color: #050505;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #050505;
+		--text-color: #e3e3e3;
+	}
 }
 
 html {
@@ -15,27 +22,24 @@ body {
 	color: var(--text-color);
 	font-family: "Courier", "Courier New", "Courier Prime", monospace;
 	margin: 0 auto;
-	padding: 0;
-	padding-bottom: 100px;
+	padding: 0 0 100px;
 	width: 85%;
 }
 
 header h1 {
 	font-size: 2.8em;
-	margin: 1.3em 1em 0 0;
+	margin: 1em 1em 0 0;
 }
 
-main {
-	a:hover:not(.link-img) {
-		filter: brightness(2);
-		text-decoration: none;
-	}
-  a:link {
-    color: var(--link-color);
-	}
-	a:visited:not(.link-img) {
-		color: var(--link-visited);
-	}
+a:hover:not(.link-img) {
+	filter: brightness(1.5);
+	text-decoration: none;
+}
+a:link {
+	color: var(--link-color);
+}
+a:visited:not(.link-img):not(.links) {
+	color: var(--link-visited);
 }
 
 footer {
@@ -82,9 +86,6 @@ footer {
 				padding-bottom: 1em;
 			}
 		}
-		ul.links li a:hover {
-			filter: drop-shadow(0 0 30px);
-		}
 	}
 }
 
@@ -100,6 +101,13 @@ footer {
 	a[href*="bsky.app"]      { background-color: #ffffff; color: #0886fe; }
 	a[href*="nostter.app"]   { background-color: #16202a; color: #71c9f7; }
 	a[href*="wikipedia.org"] { background-color: #101418; color: #ffffff; }
+}
+
+.banners div {
+	margin-bottom: 3em;
+	h1 {
+		font-size: 1.5em;
+	}
 }
 
 .button {
