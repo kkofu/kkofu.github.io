@@ -1,12 +1,20 @@
 #deJong {
   position: absolute;
-  top: 13.8vh;
-  right: 2vh;
-  filter: invert(1);
+  right: 0;
+  top: 13vh;
 }
 
 @media screen and (min-width: 1281px) {
   #deJong {
-    top: 10vh;
+    top: 9vh;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #deJong {
+    filter: invert(1);
+    input {
+      accent-color:var(--bg-color) !important;
+    }
   }
 }

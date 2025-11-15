@@ -7,77 +7,80 @@
 
 //de Jong Attractor
 
-let xl,xh,yl,yh;
+let xl, xh, yl, yh;
 let sx, sy;
 let N = 300000;
+let startTime;
+let button, slider, dots, idlabel, Alabel, hr;
+let allowInnerAutoDraw = true;
 
 function setup() {
+  startTime = millis();
+  
   let deJongCanvas = createCanvas(w=windowWidth/1.85, h=w);
-  deJongCanvas.parent("deJong");
+  deJongCanvas.parent('deJong');
 
   colorMode(HSB);
   background(bg=98);
   strokeWeight(0.5);
   stroke(0, 0.4);
 
-  t=2;
+  t = 2;
   
   button = createButton('↺');
   button.position(0, windowHeight/19);
   button.style('font-size:large');
   button.style('cursor:pointer');
-  button.mousePressed(loop);
-  button.parent("deJong");
+  button.mousePressed(set_slider_and_loop);
+  button.parent('deJong');
   
-  slider = createSlider(100000, 1000000, 300000);
+  slider = createSlider(10000, 1000000, 300000);
   slider.position(windowWidth/35, windowHeight/17);
-  slider.parent("deJong");
+  slider.style('accent-color:var(--text-color)');
+  slider.parent('deJong');
 
-  dots = createP("");
+  dots = createP('');
   dots.position(0, 0);
   dots.style('color:gray');
-  dots.parent("deJong");
+  dots.parent('deJong');
 
-  idlabel = createP("");
+  idlabel = createP('');
   idlabel.position(windowWidth/13, 0);
   idlabel.style('color:gray');
-  idlabel.parent("deJong");
+  idlabel.parent('deJong');
 
-  Alabel = createP("");
+  Alabel = createP('');
   Alabel.position(windowWidth/5, 0);
   Alabel.style('color:gray');
-  Alabel.parent("deJong");
-
+  Alabel.parent('deJong');
 }
 
 function draw(){
-  if(t==2){
+  if (t == 2) {
     test_set_pram();
   }
 
-  for(let i=0;i<=11000;i++){
-    if(t==3){
-      itr_eq();
-      test_disp();
-      test_res();
-    }else{
-      break;
-   }
+  for(let i=0; i<=11000; i++){
+    if (! (t == 3) ) {
+      break
+    }
+    itr_eq();
+    test_disp();
+    test_res();
   }
 
-  if(t==1){
+  if (t == 1){
     draw_set_pram();
 
     push();
     translate(w*0.5, h*0.5);
-    for(let i=0;i<=N;i++){
-      if(t==1){
-        itr_eq();
-        draw_disp();
-        draw_res();
-      }else{
-        break;
-     }
+    for (let i=0; i<=N; i++) {
+      if (! (t == 1) ) {
+        break
+      }
+      itr_eq();
+      draw_disp();
+      draw_res();
     }
     pop();
 
@@ -87,14 +90,20 @@ function draw(){
     stroke(0,0);
     rect(0,0,w,h);
     pop();
-	 
-    N = slider.value();
 
-    idlabel.html("id:"+id);
-    Alabel.html("A:"+A);
-    dots.html("N="+N);
     noLoop();
   }
+
+  idlabel.html("id:"+id);
+  Alabel.html("A:"+A);
+  dots.html("N="+N);
+
+  if (millis() - startTime < 4000) {
+    dots.style('color:darkgray');
+  } else {
+    dots.style('color:gray');
+  }
+
 }
 
 function test_set_pram(){
@@ -104,7 +113,7 @@ function test_set_pram(){
 
   A = [];
   id = '';
-  for(let i=0;i<4;i++){
+  for (let i=0; i<4; i++) {
     let a = int(random(4095));
     A[i] = floor(a - 2047)/800;
     id += a.toString(16).padStart(3, '0');
@@ -124,21 +133,28 @@ function itr_eq(){
 }
 
 function test_disp(){
-  if(n < 100 || n > 1000){}
-  else{
-    if(x < xmin){xmin = x;}
-    if(x > xmax){xmax = x;}
-    if(y < ymin){ymin = y;}
-    if(y > ymax){ymax = y;}
+  if (! (n < 100 || n > 1000) ) {
+    if (x < xmin) { xmin = x; }
+    if (x > xmax) { xmax = x; }
+    if (y < ymin) { ymin = y; }
+    if (y > ymax) { ymax = y; }
   }
-  if(n == 1000){rs_scr();}
+  if (n == 1000) {
+    rs_scr();
+  }
 }
 
 function test_res(){
   cal();
-  if(n > 11000){t = 1;}
-  if((abs(xnew) + abs(ynew)) > 1000000){t = 2;}
-  if(n > 100 && l < 0.3){t = 2;}
+  if (n > 11000) {
+    t = 1;
+  }
+  if ((abs(xnew) + abs(ynew)) > 1000000) {
+    t = 2;
+  }
+  if (n > 100 && l < 0.3) {
+    t = 2;
+  }
   x = xnew;
   y = ynew;
 }
@@ -194,18 +210,37 @@ function draw_set_pram(){
     sum += A[i]*10000;
   }
 
-  // randomSeed( int(sum) );
+  randomSeed( int(sum) );
 }
 
 function draw_disp(){
-  if(x > xl && x < xh && y > yl && y < yh){
+  if (x > xl && x < xh && y > yl && y < yh) {
     point(sx*(x-xc), sy*(y-yc));
   }
 }
 
 function draw_res(){
   cal();
-  if(n > N){t = 2;}
+  if (n > N) {
+    t = 2;
+  }
   x = xnew;
   y = ynew;
+}
+
+function mouseMoved() {
+  if (millis() - startTime < 4000) {
+    return
+  }
+  if ((mouseX >= 0 && mouseY > 90) && allowInnerAutoDraw) {
+    slider.value(10000); // too slow with more particles
+    N = slider.value();
+    loop();
+  }
+}
+
+function set_slider_and_loop() {
+  allowInnerAutoDraw = false;
+  N = slider.value();
+  loop();
 }
