@@ -38,7 +38,7 @@ a:hover:not(.link-img) {
 a:link {
 	color: var(--link-color);
 }
-a:visited:not(.link-img):not(.links) {
+a:visited:not(.link-img):not(.links a) {
 	color: var(--link-visited);
 }
 
