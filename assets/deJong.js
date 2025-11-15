@@ -10,13 +10,10 @@
 let xl, xh, yl, yh;
 let sx, sy;
 let N = 300000;
-let startTime;
-let button, slider, dots, idlabel, Alabel, hr;
-let allowInnerAutoDraw = true;
+let button, slider, dots, id_12, params, alert;
+let allowHoverDraw = false;
 
 function setup() {
-  startTime = millis();
-  
   let deJongCanvas = createCanvas(w=windowWidth/1.85, h=w);
   deJongCanvas.parent('deJong');
 
@@ -27,7 +24,7 @@ function setup() {
 
   t = 2;
   
-  button = createButton('↺');
+  button = createButton("↺");
   button.position(0, windowHeight/19);
   button.style('font-size:large');
   button.style('cursor:pointer');
@@ -39,20 +36,26 @@ function setup() {
   slider.style('accent-color:var(--text-color)');
   slider.parent('deJong');
 
-  dots = createP('');
+  dots = createP("");
   dots.position(0, 0);
   dots.style('color:gray');
   dots.parent('deJong');
 
-  idlabel = createP('');
-  idlabel.position(windowWidth/13, 0);
-  idlabel.style('color:gray');
-  idlabel.parent('deJong');
+  id_12 = createP("");
+  id_12.position(windowWidth/13, 0);
+  id_12.style('color:gray');
+  id_12.parent('deJong');
 
-  Alabel = createP('');
-  Alabel.position(windowWidth/5, 0);
-  Alabel.style('color:gray');
-  Alabel.parent('deJong');
+  params = createP("");
+  params.position(windowWidth/5, 0);
+  params.style('color:gray');
+  params.parent('deJong');
+
+  hover_alert = createSpan("");
+  hover_alert.parent('deJong');
+  hover_alert.style('color:gray');
+  hover_alert.position(0, 0);
+
 }
 
 function draw(){
@@ -94,16 +97,9 @@ function draw(){
     noLoop();
   }
 
-  idlabel.html("id:"+id);
-  Alabel.html("A:"+A);
   dots.html("N="+N);
-
-  if (millis() - startTime < 4000) {
-    dots.style('color:darkgray');
-  } else {
-    dots.style('color:gray');
-  }
-
+  id_12.html("id:"+id);
+  params.html("A:"+A);
 }
 
 function test_set_pram(){
@@ -210,7 +206,7 @@ function draw_set_pram(){
     sum += A[i]*10000;
   }
 
-  randomSeed( int(sum) );
+  // randomSeed( int(sum) );
 }
 
 function draw_disp(){
@@ -229,18 +225,26 @@ function draw_res(){
 }
 
 function mouseMoved() {
-  if (millis() - startTime < 4000) {
-    return
-  }
-  if ((mouseX >= 0 && mouseY > 90) && allowInnerAutoDraw) {
-    slider.value(10000); // too slow with more particles
-    N = slider.value();
-    loop();
+  if (mouseX >= 0 && mouseY > 90) {
+    if (allowHoverDraw) {
+      slider.value(10000); // too slow with more particles
+      N = slider.value();
+      dots.style('color:darkgray');
+      loop();
+    } else {
+      hover_alert.html("double click to draw on hover");
+    }
   }
 }
 
+function doubleClicked() {
+  allowHoverDraw =  true;
+  hover_alert.html("");
+}
+
 function set_slider_and_loop() {
-  allowInnerAutoDraw = false;
+  allowHoverDraw =  false;
   N = slider.value();
+  dots.style('color:gray');
   loop();
 }
