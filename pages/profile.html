@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DotGothic16&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="icon" href="../images/favicon.png">
+  <style>
+    body {
+      width: 90%;
+    }
+    div {
+      margin: 8vh 0;
+    }
+    img {
+      position: absolute;
+      right: 3vw;
+      max-width: 45vw;
+      max-height: 90vh;
+    }
+    select, option {
+      font-family: "DotGothic16", monospace;
+    }
+    p#description {
+      max-width: 45vw;
+      line-height: 180%;
+    }
+    blockquote {
+      padding-left: 1em;
+      margin-inline-start: 1em;
+      border-left: 0.2em solid lightgray;
+    }
+    @media screen and (max-width: 1280px) {
+      img {
+        z-index: -1;
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      blockquote {
+        border-left: 0.2em solid gray;
+      }
+    }
+  </style>
+  <title>kkofu</title>
+</head>
+<body class="ja">
+  <div>
+    <img id="img-box" src="../images/selfie.jpg">
+
+    <p>
+      <select>
+        <option>私</option>
+        <option>自分</option>
+      </select>
+      、
+      <select>
+        <option>kkofu</option>
+        <option>kofu</option>
+        <option>こふ</option>
+      </select>
+      は
+      <select>
+        <option value="indivisual">インターネット上の個人</option>
+        <option value="student">日本に住む学生</option>
+      </select>
+      です。
+    </p>
+    <p>
+      <select>
+        <option>日本語</option>
+        <option>英語</option>
+      </select>
+      を使います。
+      <select>
+        <option>中国語</option>
+        <option>韓国語</option>
+      </select>
+      を勉強中です。
+    </p>
+    <p>
+      <select>
+        <option value="internet">インターネットが好き</option>
+        <option value="music">音楽が好き</option>
+        <option value="otaku">オタク</option>
+        <option value="scrapbox">Cosenseユーザー</option>
+        <option value="doomsday-lib">この世の終わりの大図書館教徒</option>
+        <option value="materialism">唯物論者</option>
+        <option value="anti-disc">あらゆる差別・ヘイトに反対</option>
+      </select>
+      です。
+    </p>
+    <p id="description"></p>
+  </div>
+
+  <script>
+    const description = document.getElementById("description");
+    const imgBox = document.getElementById("img-box")
+    const collection = document.getElementsByTagName("select");
+
+    function results({ descriptionMaxWidth, removeImgStyle, imgSrc } = {}) {
+      if (descriptionMaxWidth) description.style.maxWidth = descriptionMaxWidth;
+      if (removeImgStyle) imgBox.removeAttribute("style");
+      if (imgSrc === "RESET") imgBox.src = "";
+      else if (imgSrc) imgBox.src = imgSrc;
+    }
+
+    for (const element of collection) {
+      element.selectedIndex = -1;
+
+      element.addEventListener("change", function() {
+        const value = this.value;
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (value === "indivisual") {
+          description.innerHTML = `ほとんどの場合ユーザーID kkofu で見つかります。もしかしたら違うかもしれないです。`;
+          results({ descriptionMaxWidth: "43vw", removeImgStyle: true, imgSrc: "https://i.gyazo.com/b910eb8154b4dd9e8b3e194b3e1146b8.jpg" });
+        }
+
+        else if (value === "student") {
+          description.innerHTML = `社会学を専攻しています。メディア論、批判的談話分析、社会言語学を勉強しています。言語アイデンティティ、翻訳、ジェンダー規範、ナショナリズム、価値判断を含むことばについて興味があります。`;
+          results({ descriptionMaxWidth: "43vw", removeImgStyle: true, imgSrc: "../images/selfie.jpg" });
+        }
+
+        else if (value === "internet") {
+          description.innerHTML = `インターネット、World Wide Webの自由さが好きです。<a href='https://en.wikipedia.org/wiki/Information_wants_to_be_free'>自由になりたがたる</a>情報を世界中に運ぶ技術として<a href='https://ja.wikipedia.org/wiki/ハイパーリンク'>ハイパーリンク</a>があること、一方でインターネットのすべては地球上にあるどこかしらの物理的なサーバーのもとに<a href='https://www.cloudflarestatus.com'>制限されている<a>ことを憶えています。<br>また、たとえウェブのソーシャルな部分が日に日に<a href='https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys'>メタクソ化</a>していったとしても、<a href='https://scrapbox.io/kkofu/SNSはインターネットの大きな枝ではあっても幹ではない'>SNSはインターネットの大きな枝ではあっても幹ではない</a>し、<a href='https://bsky.social/about/blog/01-28-2026-bluesky-2026-predictions'>より良い選択を選び続ける</a>ことで、私たちは<a href='https://www.mozilla.org'>もう一度インターネットを愛する</a>ことができるはずです。`;
+          results({ descriptionMaxWidth: "none", removeImgStyle: true, imgSrc: "https://chrisharrison.net/projects/InternetMap/medium/worldBlack.jpg" });
+          imgBox.style.cssText = "max-width:100vw; width:100vw; height:60vh; right:0; bottom:0;";
+          if (!isDarkMode) imgBox.style.filter = "invert(0.98)";
+        }
+
+        else if (value === "music") {
+          description.innerHTML = `<p>合成音声音楽、ネットの音楽、ネットでない音楽を主に聴きます。</p>`;
+          results({ removeImgStyle: true, imgSrc: "https://i.gyazo.com/3cf5b660fc0deafbc7481eafc3e47cb5.jpg" });
+        }
+
+        else if (value === "otaku") {
+          description.innerHTML = `<span><select>
+            <option>初音ミク</option>
+            <option>足立レイ</option>
+            <option>暁山瑞希</option>
+            <option>ラップランド</option>
+            <option>ケルシー</option>
+            <option>フォスフォフィライト</option>
+            <option>時透無一郎</option>
+            <option>夕方多夕</option>
+            <option>天使の悪魔</option>
+          </select>が好きです。</span><br>
+          <span>漫画 (<select>
+            <option>少年漫画</option>
+            <option>少女漫画</option>
+            <option>SF</option>
+            <option>Web上で配信されている漫画</option>
+          </select>) を読みます。</span><br>
+          <span><select>
+            <option value="yuri">百合</option>
+            <option value="yaoi">BL</option>
+          </select>を見ます。</span><span id="yy"></span><br>
+          <span>VTuber (<select>
+            <option value="nijisanji">にじさんじ</option>
+            <option value="v-ind">個人の方</option>
+          </select>) を見ます。</span><span id="vtuber"></span><br>
+          <span><select>
+            <option value="sns">ソーシャルメディア中毒</option>
+          </select>です。</span><span id="addict"></span>`;
+
+          results({ descriptionMaxWidth: "45vw", removeImgStyle: true, imgSrc: "https://media1.tenor.com/m/SQap5gs2LaoAAAAd/actually.gif" });
+          imgBox.style.cssText = "width:75vw";
+          
+          const innerCollection = document.getElementById("description").getElementsByTagName("select");
+          for (const element of innerCollection) {
+            element.selectedIndex = -1;
+            element.addEventListener("change", function() {
+              const value = this.value;
+              if (value === "yuri") { document.getElementById("yy").innerHTML = `本棚一つ分の百合中編二次創作Pixiv小説が脳に染み込んでいます。`; }
+              else if (value === "yaoi") { document.getElementById("yy").innerHTML = `写真フォルダの一番上らへんに中学生の頃保存した錆義や空楠やピトブラが居ます。`; }
+              else if (value === "nijisanji") { document.getElementById("vtuber").innerHTML = `<select><option>月ノ美兎</option><option>メリッサ・キンレンカ</option><option>黛灰</option><option>鏑木ろこ</option><option>ましろ爻</option></select>さんが好きです。`; }
+              else if (value === "v-ind") { document.getElementById("vtuber").innerHTML = `<select><option>ヘアピンまみれ</option><option>咒井イヒ</option><option>宇推くりあ</option><option>敷嶋てとら</option></select>さんが好きです。`; }
+              else if (value === "sns") { document.getElementById("addict").innerHTML = `ROM専です。`; }
+            })
+          }
+        }
+
+        else if (value === "scrapbox") {
+          description.innerHTML = `人類が長きに渡ってあらゆる仕組みに階層構造というシステムを応用してきたのに対して、<a href='https://scrapbox.io'>Cosense</a>は非階層的でありながら情報を効率的に収集、保存、体系化することに成功しています。<br>階層構造の持つ欠点 (分類を必要とすること、スケーラブルでないこと、深い階層にある2つの要素の共通点に気付けないこと)、単純なハッシュタグシステムの持つ欠点 (ハッシュタグそのものから項目を結び付けられないこと) を克服したCosenseをロールモデルとするようなサービス・ソフトウェアがより多く登場することを願っています。`;
+          results({ descriptionMaxWidth: "45vw", removeImgStyle: true, imgSrc: "https://i.gyazo.com/8f9698950d21aa7acc042bd71b95ca24.png" });
+        }
+
+        else if (value === "doomsday-lib") {
+          description.innerHTML = `<blockquote>現世に生きるわたしたちは、今まだ残っている情報を収集して整理し、後世に残すよう努力すべきである</blockquote><p>という<a href='https://mikanixonable.github.io/184.html'>この世の終わりの大図書館教</a>の教義に賛同しています。</p><br><blockquote><a href='https://scrapbox.io/hub/ぼくらはパーマリンクが永遠じゃないことを知っている'>ぼくらはパーマリンクが永遠じゃないことを知っている</a>。だから引用しなければならないし、書き続けなければならない。<a href='https://scrapbox.io/kkofu/コピー・アンド・ペーストは世界の永続化'>コピー・アンド・ペーストは世界の永続化</a>である。なぜならインターネットにおいて、<a href='https://scrapbox.io/hub/すべての行為はコピーだ'>すべての行為はコピーだ</a>からだ。だれかにとって重要な情報は延々とコピーされ続ける。そして、<a href='https://scrapbox.io/hub/本当に重要なことは、何度も何度も目にすることになる'>本当に重要なことは、何度も何度も目にすることになる</a>。しかし、<b>自分にとって重要な情報は自分自身が責任を持つしかない</b>。なぜなら、<a href='https://taizooo.tumblr.com/post/13589396'>自分にとって大事なことには出会うことさえないかもしれないからだ</a>。ここ、インターネットにおいては<a href='https://scrapbox.io/hub/コピーの数だけが正義'>コピーの数だけが正義</a>だ</blockquote><a href='https://scrapbox.io/hub/アテンションエコノミーは悪なのか'>アテンションエコノミーは悪なのか - hub</a>`;
+          results({ descriptionMaxWidth: "45vw", removeImgStyle: true, imgSrc: "https://mikanixonable.github.io/assets/dlc.png" });
+        }
+
+        else if (value === "materialism") {
+          description.innerHTML = `私は人間がそのちっぽけな脳で感じ得る感傷を信じています。<br>好きな音楽を聴く喜びや、朝シャン上がりの窓越しの陽光や、小説の読後に見える世界の質感も、全てただのニューロンの発火でしかないと思っているし、同時にそれを愛してもいます。`;
+          results({ descriptionMaxWidth: "45vw", removeImgStyle: true, imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Medical_X-Ray_imaging_CPW03_nevit.jpg/500px-Medical_X-Ray_imaging_CPW03_nevit.jpg" });
+        }
+
+        else if (value === "anti-disc") {
+          description.innerHTML = ``;
+          results({ descriptionMaxWidth: "45vw", removeImgStyle: true, imgSrc: "https://upload.wikimedia.org/wikipedia/commons/f/fd/LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg" });
+        }
+      })
+    }
+  </script>
+</body>
+</html>
