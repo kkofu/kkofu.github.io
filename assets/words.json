@@ -19,8 +19,14 @@
   {
     "words": "あなたの居場所は少なくとも、ここに一つあります。 あなたがどんな価値観であっても、わたしが受け止めてあげてしまうのです。",
     "type": "lines",
-    "source": "<a href='https://kuina.ch/notebook/page2'>kuina.ch/notebook/page2</a>",
+    "source": "<a href='https://kuina.ch/quotes/quotes_1-8#9944717672378909'>kuina.ch/quotes/quotes_1-8</a>",
     "sub": "くいなちゃん"
+  },
+  {
+    "words": "沢山の回答を見つけなかった。大叔に聞いたら、答えを教えてくれるかもしれない。",
+    "type": "lines",
+    "source": "<a href='https://github.com/pfnet-research/pfgen-bench/blob/main/result/SakanaAI/EvoLLM-JP-A-v1-7B/c7b8f74/README.md?plain=1#L88'>pfgen-bench/result/SakanaAI/EvoLLM-JP-A-v1-7B/c7b8f74/README.md at main · pfnet-research/pfgen-bench</a>",
+    "sub": "EvoLLM-JP-A-v1-7B"
   },
   {
     "words": "彼らにとって現状の一切は苦痛であり、下り坂はこの先も続いていくと外挿できる。",
@@ -76,7 +82,7 @@
   {
     "words": "No one's around to play with Wumpus.",
     "type": "lines",
-    "source": "<a href='https://discord.com/channels/@me'>discord.com/channels/@me</a>",
+    "source": "discord.com>",
     "sub": "Discord Inc."
   },
   {
@@ -107,19 +113,25 @@
   {
     "words": "いつから朝でどこから友達なの？",
     "type": "lines",
-    "source": "<a href='https://www.youtube.com/watch?v=8_3-NOuFJbE'>www.youtube.com/watch?v=8_3-NOuFJbE</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=8_3-NOuFJbE'youtu.be/8_3-NOuFJbE</a>",
     "sub": "魔界ノりりむ"
   },
   {
     "words": "もう分かったわ、全部、全部分かった。\n風の音も、空の声も、鳥の声も。全部分かった。",
     "type": "lines",
-    "source": "<a href='https://www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320'>www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=fUb2BmLRJfQ&t=4320'youtu.be/fUb2BmLRJfQ?t=4320</a>",
     "sub": "月ノ美兎"
+  },
+  {
+    "words": "え～！ なれなかった、なりたいものに",
+    "type": "lines",
+    "source": "<a href='https://www.youtube.com/watch?v=gklbzGVhI3s&t=1597'>youtu.be/gklbzGVhI3s?t=1597</a>",
+    "sub": "アンジュ・カトリーナ"
   },
   {
     "words": "しゃがむことを覚えたカス",
     "type": "lines",
-    "source": "<a href='https://www.youtube.com/watch?v=3LYvd9AWELs&t=8000'>www.youtube.com/watch?v=3LYvd9AWELs&t=8000</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=3LYvd9AWELs&t=8000'youtu.be/3LYvd9AWELs?t=8000</a>",
     "sub": "石神のぞみ"
   },
   {
@@ -131,13 +143,13 @@
   {
     "words": "マジで年々空が綺麗に見えてくるのなんでなんだろうな",
     "type": "comment",
-    "source": "<a href='https://www.youtube.com/watch?v=A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg'>youtu.be/A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=A8ddMjPxiQw&lc=Ugx4o8BN2-NlX8tH2S14AaABAg'>youtu.be/A8ddMjPxiQw?lc=Ugx4o8BN2-NlX8tH2S14AaABAg</a>",
     "sub": "いもけんぴ (@いもけんぴ-t4l)"
   },
   {
     "words": "ニートしてた時、雨の日だけ心が軽くなった。\n外に出ないでいい理由があるのが心地よかった。",
     "type": "comment",
-    "source": "<a href='https://www.youtube.com/watch?v=nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg'>youtu.be/nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg</a>",
+    "source": "<a href='https://www.youtube.com/watch?v=nTg7IM-aRQk&lc=Ugz8Vu-525kmILbkGE14AaABAg'>youtu.be/nTg7IM-aRQk?lc=Ugz8Vu-525kmILbkGE14AaABAg</a>",
     "sub": "骨骨太 (@骨骨太)"
   },
   {
@@ -206,7 +218,7 @@
   {
     "words": "クラゲの水槽は、デジタルに丸められず、静止すると生命が死ぬという、動くに足る最大の強固な理由付けのある、もっとも完璧な映像である。",
     "type": "tweet",
-    "source": "<a href='https://twitter.com/IAR_night/status/1841455886902120929'>twitter.com/IAR_night/status/1841455886902120929</a>",
+    "source": "<a href='https://twitter.com/IAR_night/status/1841474501194006909'>twitter.com/IAR_night/status/1841474501194006909</a>",
     "sub": "つにてんてん (@IAR_night)"
   },
   {
@@ -301,6 +313,12 @@
     "sub": "ガラグロガラゲロ 101話"
   },
   {
+    "words": "歓声が無くて私たちしかいないイルカショーとかもう芸術でしょ？",
+    "type": "words",
+    "source": "栗山弓",
+    "sub": "不器用ビンボーダンス 58"
+  },
+  {
     "words": "そわそわしてやまない\n今日はきっと何かが変わる日だ",
     "type": "words",
     "source": "田所拓弥",
@@ -330,6 +348,12 @@
     "type": "words",
     "source": "＜アルティメット・ロー＞艦長",
     "sub": "三体Ⅱ『黒暗森林』下"
+  },
+  {
+    "words": "だが、一歩前へと踏み出せば、旅は始まる。",
+    "type": "words",
+    "source": "ケルシー",
+    "sub": "アークナイツ"
   },
   {
     "words": "これくらいの感じで\nいつまでもいたいよね",
